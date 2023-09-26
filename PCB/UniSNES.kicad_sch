@@ -2373,6 +2373,10 @@
     (stroke (width 0) (type default))
     (uuid 0b3085ec-cd59-43d2-aeb7-9d7da1920eb9)
   )
+  (wire (pts (xy 267.97 226.06) (xy 269.24 226.06))
+    (stroke (width 0) (type default))
+    (uuid 0b8bdb45-273a-4358-91d0-1a4592e9f08d)
+  )
   (wire (pts (xy 24.13 91.44) (xy 25.4 91.44))
     (stroke (width 0) (type default))
     (uuid 0c0d8fbe-5586-4fca-97d2-16ed1e9c899a)
@@ -2863,6 +2867,10 @@
   (wire (pts (xy 208.28 191.77) (xy 213.36 191.77))
     (stroke (width 0) (type default))
     (uuid 6866a7b8-1931-4c88-942f-322fa88df1a9)
+  )
+  (wire (pts (xy 248.92 220.98) (xy 250.19 220.98))
+    (stroke (width 0) (type default))
+    (uuid 6940562d-20ba-4653-b572-e13afe1d7a57)
   )
   (wire (pts (xy 64.77 26.67) (xy 68.58 26.67))
     (stroke (width 0) (type default))
@@ -3567,6 +3575,10 @@
     (stroke (width 0) (type default))
     (uuid cf51d5a5-9cb2-4323-b03c-b314f06fa9b2)
   )
+  (wire (pts (xy 248.92 226.06) (xy 250.19 226.06))
+    (stroke (width 0) (type default))
+    (uuid d028b3aa-b90b-4565-b1f1-4525d1028db4)
+  )
   (wire (pts (xy 229.87 60.96) (xy 232.41 60.96))
     (stroke (width 0) (type default))
     (uuid d0836846-fd5b-47a3-baec-88fdeb8dad4e)
@@ -3620,6 +3632,10 @@
   (wire (pts (xy 111.76 96.52) (xy 111.76 91.44))
     (stroke (width 0) (type default))
     (uuid d8fb48f6-5f27-41aa-be6b-2c0942d5b11e)
+  )
+  (wire (pts (xy 267.97 220.98) (xy 269.24 220.98))
+    (stroke (width 0) (type default))
+    (uuid d91844d0-8946-46b6-8aee-61034e916159)
   )
   (wire (pts (xy 260.35 132.08) (xy 265.43 132.08))
     (stroke (width 0) (type default))
@@ -4492,6 +4508,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "BTN_R" (shape input) (at 269.24 220.98 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid c3324987-d603-4fb9-9d6f-fbab3cb7681a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 278.0309 220.98 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "N_CLOCK" (shape input) (at 59.69 198.12 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c5c18554-e3bf-4c0a-b542-cb84e728563b)
@@ -4616,6 +4639,13 @@
     (uuid f5778a42-a89c-449f-8a31-601ff07d42e0)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 200.3795 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "BTN_L" (shape input) (at 248.92 220.98 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f82bda25-9d53-442b-b7d9-e1176f16e337)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 240.371 220.98 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "SCLK" (shape input) (at 64.77 120.65 0) (fields_autoplaced)
@@ -5091,6 +5121,41 @@
       (project "UniSNES"
         (path "/a8bc983b-c111-492f-b14a-085c27a434ff"
           (reference "#PWR019") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 248.92 226.06 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 27551e6c-0fed-4849-95f8-e10ec6a872f5)
+    (property "Reference" "#PWR046" (at 242.57 226.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 245.11 226.06 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 248.92 226.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 248.92 226.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fde98aaf-c7cf-4516-97ff-5853dc8733ef))
+    (instances
+      (project "GCP-2"
+        (path "/066be9b8-34d2-4336-ae00-5e5ce007fbe1"
+          (reference "#PWR046") (unit 1)
+        )
+      )
+      (project "sgpp_main_pcb"
+        (path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+      (project "UniSNES"
+        (path "/a8bc983b-c111-492f-b14a-085c27a434ff"
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -5596,6 +5661,36 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 267.97 226.06 90) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes)
+    (uuid 3dec336a-5ff0-4e11-947d-7e5c0079861e)
+    (property "Reference" "T1" (at 262.89 226.06 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "36-8730" (at 270.51 228.6 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "hhl:KS_8730" (at 267.97 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 267.97 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a2521faf-89ea-41c0-b7af-8d658f4472f6))
+    (instances
+      (project "procon_gcc_main_pcb"
+        (path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
+          (reference "T1") (unit 1)
+        )
+      )
+      (project "UniSNES"
+        (path "/a8bc983b-c111-492f-b14a-085c27a434ff"
+          (reference "T9") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:TestPoint") (at 201.93 158.75 270) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 3df8b0d2-cfe3-4cb6-a66d-9317f72121aa)
@@ -5689,6 +5784,36 @@
       (project "UniSNES"
         (path "/a8bc983b-c111-492f-b14a-085c27a434ff"
           (reference "Q4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 267.97 220.98 90) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes)
+    (uuid 434ed437-0b5f-4756-9e49-9a125c4528c6)
+    (property "Reference" "T2" (at 262.89 220.98 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "36-8730" (at 270.51 223.52 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "hhl:KS_8730" (at 267.97 215.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 267.97 215.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0f8b5a49-42c2-4c94-87aa-24ea77a044e4))
+    (instances
+      (project "procon_gcc_main_pcb"
+        (path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
+          (reference "T2") (unit 1)
+        )
+      )
+      (project "UniSNES"
+        (path "/a8bc983b-c111-492f-b14a-085c27a434ff"
+          (reference "T10") (unit 1)
         )
       )
     )
@@ -6550,6 +6675,41 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 269.24 226.06 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 76cc6d4d-2eff-435f-a448-2f37053b898b)
+    (property "Reference" "#PWR046" (at 275.59 226.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 273.05 226.06 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 269.24 226.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 269.24 226.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0c2e9f47-7bcf-431e-b86a-db28cd4a983f))
+    (instances
+      (project "GCP-2"
+        (path "/066be9b8-34d2-4336-ae00-5e5ce007fbe1"
+          (reference "#PWR046") (unit 1)
+        )
+      )
+      (project "sgpp_main_pcb"
+        (path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+      (project "UniSNES"
+        (path "/a8bc983b-c111-492f-b14a-085c27a434ff"
+          (reference "#PWR036") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:TestPoint") (at 166.37 88.9 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 786899d8-9967-4acc-ac9a-07c118fdc6c5)
@@ -7216,6 +7376,36 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 250.19 226.06 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes)
+    (uuid a52dd0c7-4eae-4b50-9c75-b6ec7f02f33f)
+    (property "Reference" "T2" (at 255.27 226.06 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "36-8730" (at 247.65 223.52 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "hhl:KS_8730" (at 250.19 231.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 250.19 231.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 44376774-5d45-4f34-9a96-3b38e6c8c0d3))
+    (instances
+      (project "procon_gcc_main_pcb"
+        (path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
+          (reference "T2") (unit 1)
+        )
+      )
+      (project "UniSNES"
+        (path "/a8bc983b-c111-492f-b14a-085c27a434ff"
+          (reference "T8") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 127 144.78 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a83c2b13-d743-4a1e-b628-beef71850b46)
@@ -7357,6 +7547,36 @@
       (project "UniSNES"
         (path "/a8bc983b-c111-492f-b14a-085c27a434ff"
           (reference "F2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 250.19 220.98 270) (unit 1)
+    (in_bom no) (on_board yes) (dnp yes)
+    (uuid ae2e81c3-f0ef-4ef4-906c-ec179256a2dc)
+    (property "Reference" "T1" (at 255.27 220.98 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "36-8730" (at 247.65 218.44 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "hhl:KS_8730" (at 250.19 226.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 250.19 226.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6d2fe2a5-a281-4f02-bfd2-8f142ce5d6d2))
+    (instances
+      (project "procon_gcc_main_pcb"
+        (path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
+          (reference "T1") (unit 1)
+        )
+      )
+      (project "UniSNES"
+        (path "/a8bc983b-c111-492f-b14a-085c27a434ff"
+          (reference "T7") (unit 1)
         )
       )
     )
