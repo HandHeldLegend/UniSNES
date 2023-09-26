@@ -1,0 +1,15 @@
+### Footprint positions - created on Mon Sep 25 23:04:03 2023 ###
+### Printed by KiCad version 7.0.6
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val               Package                PosX       PosY       Rot  Side
+J1        USB_C_Receptacle  U06-CF2A5R-037      51.4548   -42.5689  -90.0000  bottom
+T1        36-8730           KS_8730             99.2913   -36.0172  -90.0000  bottom
+T2        36-8730           KS_8730             99.2913   -40.1828  -90.0000  bottom
+T3        36-8730           KS_8730             93.5736   -36.0172   90.0000  bottom
+T4        36-8730           KS_8730             93.5736   -40.1828   90.0000  bottom
+T5        36-8730           KS_8730             72.3900   -22.8600   90.0000  bottom
+T6        36-8730           KS_8730             72.3900   -25.2984   90.0000  bottom
+TRL1      78171-0002        78171-0002          20.4500   -46.0000  -22.5000  bottom
+TRR1      78171-0002        78171-0002         137.7500   -46.0000   22.5000  bottom
+## End
