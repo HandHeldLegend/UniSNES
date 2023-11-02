@@ -1,4 +1,4 @@
-21937014597424660
+21945508245379154
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90657,12 +90657,33 @@ hhl
 4
 4
 hhl
+4PinHeaderLong
+Through hole straight pin header, 1x04, 2.00mm pitch, single row
+Through hole pin header THT 1x04 2.00mm single row
+0
+4
+4
+hhl
 78171-0002
 
 
 0
 4
 3
+hhl
+1982633-1
+
+
+0
+6
+3
+hhl
+114701080
+1-1470108-0-2
+Connector
+0
+10
+10
 hhl
 DSBGA
 
@@ -90684,6 +90705,13 @@ ESSOP-10
 0
 11
 11
+hhl
+EVPBT2C4A000
+
+
+0
+4
+2
 hhl
 FP_RPLAYGROUND_LOGO
 
@@ -90775,6 +90803,13 @@ MSOP10
 0
 10
 10
+hhl
+PTS540JM035SMTRLFS
+
+
+0
+4
+4
 hhl
 PinHeader_1x03_P2.54mm_Vertical
 Through hole straight pin header, 1x01, 2.54mm pitch, single row
