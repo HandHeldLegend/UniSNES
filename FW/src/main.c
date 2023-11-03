@@ -38,6 +38,9 @@ button_remap_s user_map = {
     .button_stick_right = MAPCODE_B_STICKR,
 };
 
+uint main_slice_num = 0;
+uint brake_slice_num = 0;
+
 void cb_hoja_hardware_setup()
 {
     // Set up GPIO for input buttons
@@ -55,6 +58,31 @@ void cb_hoja_hardware_setup()
     hoja_setup_gpio_button(PGPIO_BTN_START);
     hoja_setup_gpio_button(PGPIO_BTN_L);
     hoja_setup_gpio_button(PGPIO_BTN_R);
+
+    // Set up Rumble GPIO
+    gpio_init(PGPIO_RUMBLE_MAIN);
+    gpio_init(PGPIO_RUMBLE_BRAKE);
+
+    gpio_set_dir(PGPIO_RUMBLE_MAIN, GPIO_OUT);
+    gpio_set_dir(PGPIO_RUMBLE_BRAKE, GPIO_OUT);
+
+    gpio_set_function(PGPIO_RUMBLE_MAIN, GPIO_FUNC_PWM);
+    gpio_set_function(PGPIO_RUMBLE_BRAKE, GPIO_FUNC_PWM);
+
+    main_slice_num = pwm_gpio_to_slice_num(PGPIO_RUMBLE_MAIN);
+    brake_slice_num = pwm_gpio_to_slice_num(PGPIO_RUMBLE_BRAKE);
+
+    pwm_set_wrap(main_slice_num, 255);
+    pwm_set_wrap(brake_slice_num, 255);
+
+    pwm_set_chan_level(main_slice_num, PWM_CHAN_B, 0);    // B for odd pins
+    pwm_set_chan_level(brake_slice_num, PWM_CHAN_B, 255); // B for odd pins
+
+    pwm_set_enabled(main_slice_num, true);
+    pwm_set_enabled(brake_slice_num, true);
+
+    pwm_set_gpio_level(PGPIO_RUMBLE_BRAKE, 255);
+    pwm_set_gpio_level(PGPIO_RUMBLE_MAIN, 0);
 }
 
 void cb_hoja_read_buttons(button_data_s *data)
@@ -84,9 +112,11 @@ void cb_hoja_read_analog(a_data_s *data)
     data->ry = 128<<4;
 }
 
+void app_rumble_task(uint32_t timestamp);
+
 void cb_hoja_task_1_hook(uint32_t timestamp)
 {
-    //app_rumble_task(timestamp);
+    app_rumble_task(timestamp);
 }
 
 int main()

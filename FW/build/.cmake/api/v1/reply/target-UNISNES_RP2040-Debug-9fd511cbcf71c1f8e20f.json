@@ -71,7 +71,7 @@
 			{
 				"command" : 4,
 				"file" : 3,
-				"line" : 58,
+				"line" : 60,
 				"parent" : 7
 			},
 			{
@@ -83,7 +83,7 @@
 			{
 				"command" : 4,
 				"file" : 3,
-				"line" : 59,
+				"line" : 58,
 				"parent" : 7
 			},
 			{
@@ -95,7 +95,7 @@
 			{
 				"command" : 4,
 				"file" : 3,
-				"line" : 60,
+				"line" : 59,
 				"parent" : 7
 			},
 			{
@@ -638,7 +638,7 @@
 				32,
 				33,
 				34,
-				36,
+				35,
 				37,
 				38,
 				39,
@@ -654,15 +654,15 @@
 				49,
 				50,
 				51,
-				53,
+				52,
 				54,
-				56,
-				59,
+				55,
+				57,
 				60,
-				64,
+				61,
 				65,
-				67,
-				71,
+				66,
+				68,
 				72,
 				73,
 				74,
@@ -694,7 +694,8 @@
 				100,
 				101,
 				102,
-				103
+				103,
+				104
 			]
 		},
 		{
@@ -1157,17 +1158,17 @@
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				35,
-				52,
-				55,
-				57,
+				36,
+				53,
+				56,
 				58,
-				61,
+				59,
 				62,
 				63,
-				66,
-				68,
-				69
+				64,
+				67,
+				69,
+				70
 			]
 		},
 		{
@@ -1657,7 +1658,7 @@
 			},
 			"sourceIndexes" : 
 			[
-				70
+				71
 			]
 		}
 	],
@@ -1669,15 +1670,15 @@
 		},
 		{
 			"backtrace" : 9,
-			"id" : "hoja_lib_ws2812_pio_h::@cba62a5e146d3cb49da7"
+			"id" : "hoja_lib_joybus_pio_h::@cba62a5e146d3cb49da7"
 		},
 		{
 			"backtrace" : 11,
-			"id" : "hoja_lib_nserial_pio_h::@cba62a5e146d3cb49da7"
+			"id" : "hoja_lib_ws2812_pio_h::@cba62a5e146d3cb49da7"
 		},
 		{
 			"backtrace" : 13,
-			"id" : "hoja_lib_joybus_pio_h::@cba62a5e146d3cb49da7"
+			"id" : "hoja_lib_nserial_pio_h::@cba62a5e146d3cb49da7"
 		}
 	],
 	"id" : "UNISNES_RP2040::@6890427a1f51a3e7e1df",
@@ -2564,7 +2565,7 @@
 				32,
 				33,
 				34,
-				36,
+				35,
 				37,
 				38,
 				39,
@@ -2580,15 +2581,15 @@
 				49,
 				50,
 				51,
-				53,
+				52,
 				54,
-				56,
-				59,
+				55,
+				57,
 				60,
-				64,
+				61,
 				65,
-				67,
-				70,
+				66,
+				68,
 				71,
 				72,
 				73,
@@ -2621,24 +2622,25 @@
 				100,
 				101,
 				102,
-				103
+				103,
+				104
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				35,
-				52,
-				55,
-				57,
+				36,
+				53,
+				56,
 				58,
-				61,
+				59,
 				62,
 				63,
-				66,
-				68,
-				69
+				64,
+				67,
+				69,
+				70
 			]
 		}
 	],
@@ -2648,6 +2650,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/app_rumble.c",
 			"sourceGroupIndex" : 0
 		},
 		{
