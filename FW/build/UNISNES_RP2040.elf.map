@@ -1772,9 +1772,9 @@ Discarded input sections
                 0x00000000        0xa CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .bss.uart_inst
                 0x00000000        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
- .text          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccqdPzlD.o
- .data          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccqdPzlD.o
- .bss           0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccqdPzlD.o
+ .text          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccqseaM8.o
+ .data          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccqseaM8.o
+ .bss           0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccqseaM8.o
  .text          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
  .data          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
  .bss           0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
@@ -1996,7 +1996,7 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\Mitch\AppData\Local\Temp\ccqdPzlD.o
+ .boot2         0x10000000      0x100 C:\Users\Mitch\AppData\Local\Temp\ccqseaM8.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3714,7 +3714,7 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
 .iplt           0x10010940        0x0
  .iplt          0x10010940        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10010940     0x2dbc
+.rodata         0x10010940     0x2dcc
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
                 0x10010940       0x11 CMakeFiles/UNISNES_RP2040.dir/src/main.c.obj
@@ -3819,453 +3819,452 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
                 0x10010cd0       0x12 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/hoja_usb.c.obj
  *fill*         0x10010ce2        0x2 
  .rodata.desc_url
-                0x10010ce4       0x16 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/hoja_usb.c.obj
+                0x10010ce4       0x28 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/hoja_usb.c.obj
                 0x10010ce4                desc_url
- *fill*         0x10010cfa        0x2 
  .rodata.tud_xinput_driver
-                0x10010cfc       0x18 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/xinput_device.c.obj
-                0x10010cfc                tud_xinput_driver
+                0x10010d0c       0x18 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/xinput_device.c.obj
+                0x10010d0c                tud_xinput_driver
  .rodata.xid_configuration_descriptor
-                0x10010d14       0x30 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/xinput_device.c.obj
-                0x10010d14                xid_configuration_descriptor
+                0x10010d24       0x30 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/xinput_device.c.obj
+                0x10010d24                xid_configuration_descriptor
  .rodata.xid_device_descriptor
-                0x10010d44       0x12 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/xinput_device.c.obj
-                0x10010d44                xid_device_descriptor
- *fill*         0x10010d56        0x2 
+                0x10010d54       0x12 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/xinput_device.c.obj
+                0x10010d54                xid_device_descriptor
+ *fill*         0x10010d66        0x2 
  .rodata.ginputd_control_xfer_cb
-                0x10010d58       0x30 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/ginput_device.c.obj
+                0x10010d68       0x30 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/ginput_device.c.obj
  .rodata.gc_hid_report_descriptor
-                0x10010d88       0x6a CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/ginput_device.c.obj
-                0x10010d88                gc_hid_report_descriptor
- *fill*         0x10010df2        0x2 
+                0x10010d98       0x6a CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/ginput_device.c.obj
+                0x10010d98                gc_hid_report_descriptor
+ *fill*         0x10010e02        0x2 
  .rodata.ginput_configuration_descriptor
-                0x10010df4       0x29 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/ginput_device.c.obj
-                0x10010df4                ginput_configuration_descriptor
- *fill*         0x10010e1d        0x3 
+                0x10010e04       0x29 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/ginput_device.c.obj
+                0x10010e04                ginput_configuration_descriptor
+ *fill*         0x10010e2d        0x3 
  .rodata.ginput_device_descriptor
-                0x10010e20       0x12 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/ginput_device.c.obj
-                0x10010e20                ginput_device_descriptor
- *fill*         0x10010e32        0x2 
+                0x10010e30       0x12 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/ginput_device.c.obj
+                0x10010e30                ginput_device_descriptor
+ *fill*         0x10010e42        0x2 
  .rodata.tud_ginput_driver
-                0x10010e34       0x18 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/ginput_device.c.obj
-                0x10010e34                tud_ginput_driver
+                0x10010e44       0x18 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/ginput_device.c.obj
+                0x10010e44                tud_ginput_driver
  .rodata.command_handler
-                0x10010e4c      0x124 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/switch/switch_commands.c.obj
- .rodata        0x10010f70       0x1c CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/switch/switch_commands.c.obj
+                0x10010e5c      0x124 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/switch/switch_commands.c.obj
+ .rodata        0x10010f80       0x1c CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/switch/switch_commands.c.obj
  .rodata.sw_spi_getaddressdata
-                0x10010f8c      0x3d8 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/switch/switch_spi.c.obj
+                0x10010f9c      0x3d8 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/switch/switch_spi.c.obj
  .rodata._remap_load_remap
-                0x10011364       0x18 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/remap.c.obj
+                0x10011374       0x18 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/remap.c.obj
  .rodata._remap_listener.str1.4
-                0x1001137c       0x3d CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/remap.c.obj
- *fill*         0x100113b9        0x7 
+                0x1001138c       0x3d CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/remap.c.obj
+ *fill*         0x100113c9        0x7 
  .rodata.default_remap
-                0x100113c0        0x8 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/remap.c.obj
-                0x100113c0                default_remap
+                0x100113d0        0x8 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/remap.c.obj
+                0x100113d0                default_remap
  .rodata._angle_lut
-                0x100113c8       0x20 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/stick_scaling.c.obj
-                0x100113c8                _angle_lut
+                0x100113d8       0x20 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/stick_scaling.c.obj
+                0x100113d8                _angle_lut
  .rodata.joybus_program
-                0x100113e8        0x6 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/gamecube.c.obj
- *fill*         0x100113ee        0x2 
+                0x100113f8        0x6 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/gamecube.c.obj
+ *fill*         0x100113fe        0x2 
  .rodata.joybus_program_instructions
-                0x100113f0       0x2a CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/gamecube.c.obj
- *fill*         0x1001141a        0x2 
+                0x10011400       0x2a CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/gamecube.c.obj
+ *fill*         0x1001142a        0x2 
  .rodata.joybus_program
-                0x1001141c        0x6 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/n64.c.obj
- *fill*         0x10011422        0x2 
+                0x1001142c        0x6 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/n64.c.obj
+ *fill*         0x10011432        0x2 
  .rodata.joybus_program_instructions
-                0x10011424       0x2a CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/n64.c.obj
- *fill*         0x1001144e        0x2 
+                0x10011434       0x2a CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/n64.c.obj
+ *fill*         0x1001145e        0x2 
  .rodata.nserial_program
-                0x10011450        0x6 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/nspi.c.obj
- *fill*         0x10011456        0x2 
+                0x10011460        0x6 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/nspi.c.obj
+ *fill*         0x10011466        0x2 
  .rodata.nserial_program_instructions
-                0x10011458       0x18 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/nspi.c.obj
+                0x10011468       0x18 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/nspi.c.obj
  .rodata.swpro_configuration_descriptor
-                0x10011470       0x40 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/swpro.c.obj
-                0x10011470                swpro_configuration_descriptor
+                0x10011480       0x40 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/swpro.c.obj
+                0x10011480                swpro_configuration_descriptor
  .rodata.swpro_device_descriptor
-                0x100114b0       0x12 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/swpro.c.obj
-                0x100114b0                swpro_device_descriptor
- *fill*         0x100114c2        0x2 
+                0x100114c0       0x12 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/swpro.c.obj
+                0x100114c0                swpro_device_descriptor
+ *fill*         0x100114d2        0x2 
  .rodata.swpro_hid_report_descriptor
-                0x100114c4       0xcb CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/swpro.c.obj
-                0x100114c4                swpro_hid_report_descriptor
- *fill*         0x1001158f        0x1 
+                0x100114d4       0xcb CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/swpro.c.obj
+                0x100114d4                swpro_hid_report_descriptor
+ *fill*         0x1001159f        0x1 
  .rodata.webusb_save_confirm.str1.4
-                0x10011590       0x18 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/webusb.c.obj
+                0x100115a0       0x18 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/webusb.c.obj
  .rodata.webusb_command_processor.str1.4
-                0x100115a8      0x3d2 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/webusb.c.obj
- *fill*         0x1001197a        0x2 
+                0x100115b8      0x3d2 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/webusb.c.obj
+ *fill*         0x1001198a        0x2 
  .rodata.webusb_command_processor
-                0x1001197c      0x18c CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/webusb.c.obj
+                0x1001198c      0x18c CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/webusb.c.obj
  .rodata.ds4_configuration_descriptor
-                0x10011b08       0x29 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/ds4input.c.obj
-                0x10011b08                ds4_configuration_descriptor
- *fill*         0x10011b31        0x3 
+                0x10011b18       0x29 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/ds4input.c.obj
+                0x10011b18                ds4_configuration_descriptor
+ *fill*         0x10011b41        0x3 
  .rodata.ds4_device_descriptor
-                0x10011b34       0x12 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/ds4input.c.obj
-                0x10011b34                ds4_device_descriptor
- *fill*         0x10011b46        0x2 
+                0x10011b44       0x12 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/ds4input.c.obj
+                0x10011b44                ds4_device_descriptor
+ *fill*         0x10011b56        0x2 
  .rodata.ds4_hid_report_descriptor
-                0x10011b48      0x203 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/ds4input.c.obj
-                0x10011b48                ds4_hid_report_descriptor
- *fill*         0x10011d4b        0x1 
+                0x10011b58      0x203 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/ds4input.c.obj
+                0x10011b58                ds4_hid_report_descriptor
+ *fill*         0x10011d5b        0x1 
  .rodata.spin_lock_claim_unused.str1.4
-                0x10011d4c       0x1b CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x10011d67        0x1 
+                0x10011d5c       0x1b CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x10011d77        0x1 
  .rodata.make_branch.str1.4
-                0x10011d68       0x89 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10011df1        0x3 
+                0x10011d78       0x89 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10011e01        0x3 
  .rodata.insert_branch_and_link.str1.4
-                0x10011df4       0x10 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10011e04       0x10 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.irq_set_exclusive_handler.str1.4
-                0x10011e04       0x36 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10011e3a        0x2 
+                0x10011e14       0x36 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10011e4a        0x2 
  .rodata.irq_add_shared_handler.str1.4
-                0x10011e3c       0xd9 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10011f15        0x3 
+                0x10011e4c       0xd9 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10011f25        0x3 
  .rodata.irq_remove_handler.str1.4
-                0x10011f18       0x3a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10011f52        0x2 
+                0x10011f28       0x3a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10011f62        0x2 
  .rodata.irq_add_tail_to_free_list.str1.4
-                0x10011f54       0x3a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10011f8e        0x2 
+                0x10011f64       0x3a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10011f9e        0x2 
  .rodata.__func__.0
-                0x10011f90       0x1a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10011faa        0x2 
+                0x10011fa0       0x1a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10011fba        0x2 
  .rodata.__func__.1
-                0x10011fac       0x17 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10011fc3        0x1 
+                0x10011fbc       0x17 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10011fd3        0x1 
  .rodata.__func__.2
-                0x10011fc4       0x13 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10011fd7        0x1 
+                0x10011fd4       0x13 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10011fe7        0x1 
  .rodata.__func__.3
-                0x10011fd8        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10011fe8        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.__func__.4
-                0x10011fe4        0xf CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10011ff3        0x1 
+                0x10011ff4        0xf CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10012003        0x1 
  .rodata.__func__.5
-                0x10011ff4       0x17 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1001200b        0x1 
+                0x10012004       0x17 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1001201b        0x1 
  .rodata.__func__.6
-                0x1001200c       0x1a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10012026        0x2 
+                0x1001201c       0x1a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10012036        0x2 
  .rodata.str1.4
-                0x10012028      0x125 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x1001214d        0x3 
+                0x10012038      0x125 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x1001215d        0x3 
  .rodata.__func__.1
-                0x10012150        0xb CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x1001215b        0x1 
+                0x10012160        0xb CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x1001216b        0x1 
  .rodata.__func__.3
-                0x1001215c       0x18 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x1001216c       0x18 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.__func__.4
-                0x10012174       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x10012189        0x3 
+                0x10012184       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x10012199        0x3 
  .rodata.repeating_timer_callback.str1.4
-                0x1001218c       0x67 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100121f3        0x1 
+                0x1001219c       0x67 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10012203        0x1 
  .rodata.timer_pool_entry_comparator.str1.4
-                0x100121f4       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10012216        0x2 
+                0x10012204       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10012226        0x2 
  .rodata.ph_add_child_node.str1.4
-                0x10012218       0xb2 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100122ca        0x2 
+                0x10012228       0xb2 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100122da        0x2 
  .rodata.add_alarm_under_lock.str1.4
-                0x100122cc       0x28 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x100122dc       0x28 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
                                  0x2b (size before relaxing)
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x100122f4       0x98 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x10012304       0x98 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
                                 0x118 (size before relaxing)
  .rodata.alarm_pool_get_default.str1.4
-                0x1001238c       0x21 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100123ad        0x3 
+                0x1001239c       0x21 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100123bd        0x3 
  .rodata.alarm_pool_cancel_alarm.str1.4
-                0x100123b0       0x27 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100123d7        0x1 
+                0x100123c0       0x27 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100123e7        0x1 
  .rodata.sleep_until.str1.4
-                0x100123d8       0x4d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10012425        0x3 
+                0x100123e8       0x4d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10012435        0x3 
  .rodata.__func__.1
-                0x10012428       0x18 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x10012438       0x18 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.10
-                0x10012440       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10012455        0x3 
+                0x10012450       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10012465        0x3 
  .rodata.__func__.11
-                0x10012458       0x1a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10012472        0x2 
+                0x10012468       0x1a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10012482        0x2 
  .rodata.__func__.12
-                0x10012474        0xa CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x1001247e        0x2 
+                0x10012484        0xa CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1001248e        0x2 
  .rodata.__func__.3
-                0x10012480       0x17 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10012497        0x1 
+                0x10012490       0x17 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100124a7        0x1 
  .rodata.__func__.4
-                0x10012498       0x12 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100124aa        0x2 
+                0x100124a8       0x12 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100124ba        0x2 
  .rodata.__func__.5
-                0x100124ac        0xd CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100124b9        0x3 
+                0x100124bc        0xd CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100124c9        0x3 
  .rodata.__func__.6
-                0x100124bc       0x12 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100124ce        0x2 
+                0x100124cc       0x12 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100124de        0x2 
  .rodata.__func__.7
-                0x100124d0        0xf CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100124df        0x1 
+                0x100124e0        0xf CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100124ef        0x1 
  .rodata.__func__.8
-                0x100124e0        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x100124f0        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.9
-                0x100124ec       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10012501        0x7 
+                0x100124fc       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10012511        0x7 
  .rodata.at_the_end_of_time
-                0x10012508        0x8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
-                0x10012508                at_the_end_of_time
+                0x10012518        0x8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+                0x10012518                at_the_end_of_time
  .rodata.hardware_alarm_claim.str1.4
-                0x10012510       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10012520       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.busy_wait_us.str1.4
-                0x10012532       0x7d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10012532        0x2 
+                0x10012542       0x7d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10012542        0x2 
  .rodata.hardware_alarm_set_target.str1.4
-                0x10012534       0x81 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x100125b5        0x3 
+                0x10012544       0x81 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x100125c5        0x3 
  .rodata.__func__.0
-                0x100125b8       0x1a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x100125d2        0x2 
+                0x100125c8       0x1a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x100125e2        0x2 
  .rodata.__func__.1
-                0x100125d4       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100125e4       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x100125e9       0xb2 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x100125e9        0x3 
+                0x100125f9       0xb2 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x100125f9        0x3 
  .rodata.ph_remove_any_head.str1.4
-                0x100125ec       0xa8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100125fc       0xa8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
                                  0xbc (size before relaxing)
  .rodata.ph_remove_and_free_node.str1.4
-                0x10012694       0x1e CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100126a4       0x1e CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
                                  0x26 (size before relaxing)
- *fill*         0x100126b2        0x2 
+ *fill*         0x100126c2        0x2 
  .rodata.__func__.0
-                0x100126b4       0x18 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100126c4       0x18 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.__func__.1
-                0x100126cc       0x13 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x100126df        0x1 
+                0x100126dc       0x13 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x100126ef        0x1 
  .rodata.__func__.2
-                0x100126e0       0x12 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x100126f2        0x2 
+                0x100126f0       0x12 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10012702        0x2 
  .rodata.__func__.3
-                0x100126f4        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10012704        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.clock_configure.str1.4
-                0x10012700       0x73 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- *fill*         0x10012773        0x1 
+                0x10012710       0x73 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ *fill*         0x10012783        0x1 
  .rodata.__func__.1
-                0x10012774       0x10 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10012784       0x10 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.pll_init.str1.4
-                0x10012784      0x140 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10012794      0x140 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .rodata.__func__.0
-                0x100128c4        0x9 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x100128cd        0x3 
+                0x100128d4        0x9 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x100128dd        0x3 
  .rodata.__assert_func.str1.4
-                0x100128d0       0x3f CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100128e0       0x3f CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                  0x43 (size before relaxing)
- *fill*         0x1001290f        0x1 
+ *fill*         0x1001291f        0x1 
  .rodata.runtime_init.str1.4
-                0x10012910       0x7d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x1001298d        0x3 
+                0x10012920       0x7d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x1001299d        0x3 
  .rodata.panic.str1.4
-                0x10012990       0x10 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100129a0       0x10 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                  0x12 (size before relaxing)
  .rodata.__func__.2
-                0x100129a0        0xd CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x100129ad        0x3 
+                0x100129b0        0xd CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x100129bd        0x3 
  .rodata._ftoa.str1.4
-                0x100129b0       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x100129c5        0x3 
+                0x100129c0       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x100129d5        0x3 
  .rodata._vsnprintf
-                0x100129c8      0x1e0 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100129d8      0x1e0 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x10012ba8       0x50 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10012bb8       0x50 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.__aeabi_double_init.str1.4
-                0x10012bf8       0xb8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10012c08       0xb8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__func__.0
-                0x10012cb0       0x14 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10012cc0       0x14 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__aeabi_float_init.str1.4
-                0x10012cc4       0x96 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10012cd4       0x96 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                  0x9a (size before relaxing)
- *fill*         0x10012d5a        0x2 
+ *fill*         0x10012d6a        0x2 
  .rodata.__func__.0
-                0x10012d5c       0x13 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x10012d6f        0x1 
+                0x10012d6c       0x13 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x10012d7f        0x1 
  .rodata.str1.4
-                0x10012d70       0x44 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10012d80       0x44 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10012db4        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10012dc4        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10012dc0        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10012dd0        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10012dcc        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10012ddc        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.stdout_serialize_begin.str1.4
-                0x10012dd8       0x7d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10012de8       0x7d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.__func__.3
-                0x10012dd8       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10012ded        0x3 
+                0x10012de8       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10012dfd        0x3 
  .rodata.crlf_str.2
-                0x10012df0        0x2 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10012df2        0x2 
+                0x10012e00        0x2 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10012e02        0x2 
  .rodata.str1.4
-                0x10012df4       0x2c CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10012e04       0x2c CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_33.4
-                0x10012e20        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10012e30        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_34.5
-                0x10012e2c        0x8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10012e3c        0x8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.multicore_fifo_push_timeout_us.str1.4
-                0x10012e34       0x7d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10012e44       0x7d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .rodata.multicore_lockout_start_block_until.str1.4
-                0x10012e34       0x79 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- *fill*         0x10012ead        0x3 
+                0x10012e44       0x79 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ *fill*         0x10012ebd        0x3 
  .rodata.multicore_lockout_end_block_until.str1.4
-                0x10012eb0       0x3c CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10012ec0       0x3c CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .rodata.multicore_launch_core1_with_stack.str1.4
-                0x10012eec       0x19 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- *fill*         0x10012f05        0x3 
+                0x10012efc       0x19 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ *fill*         0x10012f15        0x3 
  .rodata.__func__.0
-                0x10012f08       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- *fill*         0x10012f2a        0x2 
+                0x10012f18       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ *fill*         0x10012f3a        0x2 
  .rodata.__func__.1
-                0x10012f2c       0x24 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10012f3c       0x24 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .rodata.__func__.2
-                0x10012f50       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- *fill*         0x10012f72        0x2 
+                0x10012f60       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ *fill*         0x10012f82        0x2 
  .rodata.__func__.3
-                0x10012f74       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- *fill*         0x10012f89        0x3 
+                0x10012f84       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ *fill*         0x10012f99        0x3 
  .rodata.capture_additional_rosc_samples.str1.4
-                0x10012f8c      0x11f CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+                0x10012f9c      0x11f CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
                                 0x1a1 (size before relaxing)
- *fill*         0x100130ab        0x1 
+ *fill*         0x100130bb        0x1 
  .rodata.initialise_rand.str1.4
-                0x100130ac        0xa CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
- *fill*         0x100130b6        0x2 
+                0x100130bc        0xa CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+ *fill*         0x100130c6        0x2 
  .rodata.__func__.0
-                0x100130b8       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
- *fill*         0x100130cd        0x3 
+                0x100130c8       0x15 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+ *fill*         0x100130dd        0x3 
  .rodata.__func__.2
-                0x100130d0       0x20 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+                0x100130e0       0x20 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
  .rodata.__func__.3
-                0x100130f0       0x10 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+                0x10013100       0x10 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
  .rodata.str1.4
-                0x10013100      0x176 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- *fill*         0x10013276        0x2 
+                0x10013110      0x176 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ *fill*         0x10013286        0x2 
  .rodata.__func__.0
-                0x10013278        0xd CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- *fill*         0x10013285        0x3 
+                0x10013288        0xd CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ *fill*         0x10013295        0x3 
  .rodata.__func__.1
-                0x10013288       0x14 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x10013298       0x14 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .rodata.__func__.2
-                0x1001329c       0x12 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- *fill*         0x100132ae        0x2 
+                0x100132ac       0x12 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ *fill*         0x100132be        0x2 
  .rodata._pio_find_offset_for_program.str1.4
-                0x100132b0       0x85 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x10013335        0x3 
+                0x100132c0       0x85 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x10013345        0x3 
  .rodata._pio_add_program_at_offset.str1.4
-                0x10013338       0x11 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x10013349        0x3 
+                0x10013348       0x11 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x10013359        0x3 
  .rodata.__func__.1
-                0x1001334c       0x1d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x10013369        0x3 
+                0x1001335c       0x1d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x10013379        0x3 
  .rodata._hw_endpoint_alloc.str1.4
-                0x1001336c       0xd1 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x1001343d        0x3 
+                0x1001337c       0xd1 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x1001344d        0x3 
  .rodata.str1.4
-                0x10013440       0x14 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10013450       0x14 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.dcd_int_enable.str1.4
-                0x10013454        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10013464        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.__func__.0
-                0x10013460        0xe CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x1001346e        0x2 
- .rodata.__func__.1
                 0x10013470        0xe CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  *fill*         0x1001347e        0x2 
+ .rodata.__func__.1
+                0x10013480        0xe CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x1001348e        0x2 
  .rodata.__func__.2
-                0x10013480       0x12 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x10013492        0x2 
+                0x10013490       0x12 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x100134a2        0x2 
  .rodata.__func__.3
-                0x10013494       0x10 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100134a4       0x10 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.__func__.5
-                0x100134a4        0xf CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x100134b3        0x1 
+                0x100134b4        0xf CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x100134c3        0x1 
  .rodata.__func__.6
-                0x100134b4       0x13 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x100134c7        0x1 
+                0x100134c4       0x13 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x100134d7        0x1 
  .rodata.__func__.7
-                0x100134c8        0x9 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x100134d1        0x3 
+                0x100134d8        0x9 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x100134e1        0x3 
  .rodata.str1.4
-                0x100134d4       0xf9 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x100134e4       0xf9 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
                                 0x103 (size before relaxing)
- *fill*         0x100135cd        0x3 
+ *fill*         0x100135dd        0x3 
  .rodata.__func__.0
-                0x100135d0        0xf CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x100135df        0x1 
+                0x100135e0        0xf CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x100135ef        0x1 
  .rodata.process_get_descriptor
-                0x100135e0       0x40 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100135f0       0x40 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.process_control_request
-                0x10013620       0x28 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10013630       0x28 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.tud_task_ext
-                0x10013648       0x24 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10013658       0x24 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x1001366c       0x48 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1001367c       0x48 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.hidd_control_xfer_cb
-                0x100136b4       0x30 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x100136c4       0x30 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
  .rodata.str1.4
-                0x100136e4        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+                0x100136f4        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .rodata.__bi_142.0
-                0x100136e8        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+                0x100136f8        0xc CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .rodata.__bi_152.1
-                0x100136f4        0x8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
-                0x100136fc                . = ALIGN (0x4)
+                0x10013704        0x8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+                0x1001370c                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x100136fc                . = ALIGN (0x4)
+                0x1001370c                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x100136fc                __exidx_start = .
+                0x1001370c                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x100136fc                __exidx_end = .
-                0x100136fc                . = ALIGN (0x4)
-                0x100136fc                __binary_info_start = .
+                0x1001370c                __exidx_end = .
+                0x1001370c                . = ALIGN (0x4)
+                0x1001370c                __binary_info_start = .
 
-.binary_info    0x100136fc       0x2c
+.binary_info    0x1001370c       0x2c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x100136fc        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr30
-                0x10013700        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr38
-                0x10013704        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr44
-                0x10013708        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr50
                 0x1001370c        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr75
+ .binary_info.keep.__bi_ptr30
                 0x10013710        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr81
+ .binary_info.keep.__bi_ptr38
                 0x10013714        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr44
+                0x10013718        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr50
+                0x1001371c        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr75
+                0x10013720        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr81
+                0x10013724        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr142
-                0x10013718        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+                0x10013728        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .binary_info.keep.__bi_ptr152
-                0x1001371c        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+                0x1001372c        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr33
-                0x10013720        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10013730        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr34
-                0x10013724        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10013728                __binary_info_end = .
+                0x10013734        0x4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10013738                __binary_info_end = .
 
-.rel.dyn        0x10013728        0x0
- .rel.iplt      0x10013728        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10013728                . = ALIGN (0x4)
+.rel.dyn        0x10013738        0x0
+ .rel.iplt      0x10013738        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10013738                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -4274,7 +4273,7 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
                 0x20000000       0xc0 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0     0x1480 load address 0x10013728
+.data           0x200000c0     0x1480 load address 0x10013738
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -4507,13 +4506,13 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
  *(.jcr)
                 0x20001540                . = ALIGN (0x4)
                 0x20001540                __data_end__ = .
-                0x10013728                __etext = LOADADDR (.data)
+                0x10013738                __etext = LOADADDR (.data)
 
-.igot.plt       0x20001540        0x0 load address 0x10014ba8
+.igot.plt       0x20001540        0x0 load address 0x10014bb8
  .igot.plt      0x20001540        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20001540       0x20 load address 0x10014ba8
+                0x20001540       0x20 load address 0x10014bb8
                 0x20001540                . = ALIGN (0x4)
  *(.uninitialized_data*)
  .uninitialized_data.ram_hash
@@ -4523,19 +4522,19 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
  .uninitialized_data.rosc_samples
                 0x20001558        0x8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
 
-.scratch_x      0x20040000        0x0 load address 0x10014ba8
+.scratch_x      0x20040000        0x0 load address 0x10014bb8
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x10014ba8                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10014bb8                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10014ba8
+.scratch_y      0x20041000        0x0 load address 0x10014bb8
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x10014ba8                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10014bb8                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20001560     0x19ec
                 0x20001560                . = ALIGN (0x4)
@@ -5106,8 +5105,8 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10014ba8        0x0
-                0x10014ba8                PROVIDE (__flash_binary_end = .)
+.flash_end      0x10014bb8        0x0
+                0x10014bb8                PROVIDE (__flash_binary_end = .)
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -5224,7 +5223,7 @@ LOAD CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1
 LOAD CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
-LOAD C:\Users\Mitch\AppData\Local\Temp\ccqdPzlD.o
+LOAD C:\Users\Mitch\AppData\Local\Temp\ccqseaM8.o
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -5417,7 +5416,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000e2a       0x2c CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .ARM.attributes
-                0x00000e56       0x22 C:\Users\Mitch\AppData\Local\Temp\ccqdPzlD.o
+                0x00000e56       0x22 C:\Users\Mitch\AppData\Local\Temp\ccqseaM8.o
  .ARM.attributes
                 0x00000e78       0x2c c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
  .ARM.attributes
@@ -5504,7 +5503,7 @@ LOAD linker stubs
  .comment       0x00000049       0x4a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .comment       0x00000049       0x4a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 
-.debug_info     0x00000000    0x5b4b6
+.debug_info     0x00000000    0x5b4b7
  .debug_info    0x00000000      0xf95 CMakeFiles/UNISNES_RP2040.dir/src/main.c.obj
  .debug_info    0x00000f95     0x12b2 CMakeFiles/UNISNES_RP2040.dir/src/app_rumble.c.obj
  .debug_info    0x00002247     0x1fd4 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/hoja.c.obj
@@ -5516,78 +5515,78 @@ LOAD linker stubs
  .debug_info    0x000092c1      0x3a1 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/utilities/reboot.c.obj
  .debug_info    0x00009662      0x1a1 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/utilities/interval.c.obj
  .debug_info    0x00009803      0x4e0 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/desc_bos.c.obj
- .debug_info    0x00009ce3     0x18fb CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/hoja_usb.c.obj
- .debug_info    0x0000b5de      0xf21 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/xinput_device.c.obj
- .debug_info    0x0000c4ff     0x17ce CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/ginput_device.c.obj
- .debug_info    0x0000dccd      0x3dd CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/switch/switch_analog.c.obj
- .debug_info    0x0000e0aa     0x1b54 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/switch/switch_commands.c.obj
- .debug_info    0x0000fbfe      0x9e0 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/switch/switch_spi.c.obj
- .debug_info    0x000105de     0x109b CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/imu.c.obj
- .debug_info    0x00011679     0x11cc CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/remap.c.obj
- .debug_info    0x00012845      0xd2c CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/snapback.c.obj
- .debug_info    0x00013571     0x1f47 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/stick_scaling.c.obj
- .debug_info    0x000154b8     0x14e1 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/analog.c.obj
- .debug_info    0x00016999      0x6aa CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/macros.c.obj
- .debug_info    0x00017043      0xedd CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/gcinput.c.obj
- .debug_info    0x00017f20     0x37e6 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/gamecube.c.obj
- .debug_info    0x0001b706     0x28cd CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/n64.c.obj
- .debug_info    0x0001dfd3     0x20f7 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/nspi.c.obj
- .debug_info    0x000200ca      0xa9e CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/swpro.c.obj
- .debug_info    0x00020b68     0x1f50 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/webusb.c.obj
- .debug_info    0x00022ab8      0x73b CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/xinput.c.obj
- .debug_info    0x000231f3      0x86c CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/btinput.c.obj
- .debug_info    0x00023a5f      0xdae CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/ds4input.c.obj
- .debug_info    0x0002480d     0x187e CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x0002608b      0x1e3 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x0002626e      0x6be CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x0002692c      0x58e CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00026eba     0x1c9e CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x00028b58      0x1a4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x00028cfc     0x20d5 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x0002add1      0x2d1 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_info    0x0002b0a2     0x4068 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x0002f10a     0x13f0 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x000304fa     0x123b CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x00031735      0xdd2 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_info    0x00032507      0xfcf CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x000334d6      0x51b CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x000339f1      0x4ee CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x00033edf      0x1d8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x000340b7     0x1053 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0003510a     0x1a5f CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00036b69       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00036b8b      0x27c CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00036e07       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x00036e29       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x00036e4b      0x2d1 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x0003711c     0x5586 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_info    0x0003c6a2       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x0003c6c4       0x26 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x0003c6ea       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x0003c70c      0x2eb CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x0003c9f7     0x5031 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .debug_info    0x00041a28       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_info    0x00041a4a      0x4a6 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_info    0x00041ef0       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00041f12       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x00041f34      0x2fb CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x0004222f     0x1827 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x00043a56     0x104f CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_info    0x00044aa5     0x1d18 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_info    0x000467bd     0x14f6 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
- .debug_info    0x00047cb3      0x257 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_info    0x00047f0a      0xf3a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_info    0x00048e44     0x227f CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .debug_info    0x0004b0c3     0x2080 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_info    0x0004d143      0xfe4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_info    0x0004e127     0x3c25 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_info    0x00051d4c      0x8be CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_info    0x0005260a     0x19f3 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_info    0x00053ffd     0x160d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
- .debug_info    0x0005560a     0x1021 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_info    0x0005662b     0x14db CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_info    0x00057b06     0x2851 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_info    0x0005a357     0x115f CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+ .debug_info    0x00009ce3     0x18fc CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/hoja_usb.c.obj
+ .debug_info    0x0000b5df      0xf21 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/xinput_device.c.obj
+ .debug_info    0x0000c500     0x17ce CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/usb/ginput_device.c.obj
+ .debug_info    0x0000dcce      0x3dd CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/switch/switch_analog.c.obj
+ .debug_info    0x0000e0ab     0x1b54 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/switch/switch_commands.c.obj
+ .debug_info    0x0000fbff      0x9e0 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/switch/switch_spi.c.obj
+ .debug_info    0x000105df     0x109b CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/imu.c.obj
+ .debug_info    0x0001167a     0x11cc CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/remap.c.obj
+ .debug_info    0x00012846      0xd2c CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/snapback.c.obj
+ .debug_info    0x00013572     0x1f47 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/stick_scaling.c.obj
+ .debug_info    0x000154b9     0x14e1 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/analog.c.obj
+ .debug_info    0x0001699a      0x6aa CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/input/macros.c.obj
+ .debug_info    0x00017044      0xedd CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/gcinput.c.obj
+ .debug_info    0x00017f21     0x37e6 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/gamecube.c.obj
+ .debug_info    0x0001b707     0x28cd CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/n64.c.obj
+ .debug_info    0x0001dfd4     0x20f7 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/nspi.c.obj
+ .debug_info    0x000200cb      0xa9e CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/swpro.c.obj
+ .debug_info    0x00020b69     0x1f50 CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/webusb.c.obj
+ .debug_info    0x00022ab9      0x73b CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/xinput.c.obj
+ .debug_info    0x000231f4      0x86c CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/btinput.c.obj
+ .debug_info    0x00023a60      0xdae CMakeFiles/UNISNES_RP2040.dir/lib/hoja-lib-rp2040/src/devices/ds4input.c.obj
+ .debug_info    0x0002480e     0x187e CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x0002608c      0x1e3 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x0002626f      0x6be CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x0002692d      0x58e CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x00026ebb     0x1c9e CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x00028b59      0x1a4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x00028cfd     0x20d5 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x0002add2      0x2d1 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_info    0x0002b0a3     0x4068 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x0002f10b     0x13f0 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x000304fb     0x123b CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x00031736      0xdd2 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_info    0x00032508      0xfcf CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x000334d7      0x51b CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x000339f2      0x4ee CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x00033ee0      0x1d8 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x000340b8     0x1053 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x0003510b     0x1a5f CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x00036b6a       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x00036b8c      0x27c CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x00036e08       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x00036e2a       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x00036e4c      0x2d1 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x0003711d     0x5586 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_info    0x0003c6a3       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x0003c6c5       0x26 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x0003c6eb       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x0003c70d      0x2eb CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x0003c9f8     0x5031 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .debug_info    0x00041a29       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_info    0x00041a4b      0x4a6 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_info    0x00041ef1       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x00041f13       0x22 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x00041f35      0x2fb CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x00042230     0x1827 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x00043a57     0x104f CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_info    0x00044aa6     0x1d18 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_info    0x000467be     0x14f6 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+ .debug_info    0x00047cb4      0x257 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_info    0x00047f0b      0xf3a CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_info    0x00048e45     0x227f CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_info    0x0004b0c4     0x2080 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_info    0x0004d144      0xfe4 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_info    0x0004e128     0x3c25 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_info    0x00051d4d      0x8be CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_info    0x0005260b     0x19f3 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_info    0x00053ffe     0x160d CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+ .debug_info    0x0005560b     0x1021 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_info    0x0005662c     0x14db CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_info    0x00057b07     0x2851 CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_info    0x0005a358     0x115f CMakeFiles/UNISNES_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 
 .debug_abbrev   0x00000000     0xea94
  .debug_abbrev  0x00000000      0x362 CMakeFiles/UNISNES_RP2040.dir/src/main.c.obj

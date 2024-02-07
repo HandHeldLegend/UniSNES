@@ -24,7 +24,7 @@
 #define HOJA_ANALOG_LIGHT 50
 
 // URL that will display to open a config tool
-#define HOJA_WEBUSB_URL     "handheldlegend.com"
+#define HOJA_WEBUSB_URL     "handheldlegend.github.io/hoja_config"
 #define HOJA_MANUFACTURER   "HandHeldLegend"
 #define HOJA_PRODUCT        "UniSNES"
 
