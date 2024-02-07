@@ -1160,7 +1160,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "UNISNES_RP2040::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-UNISNES_RP2040-Debug-9fd511cbcf71c1f8e20f.json",
+					"jsonFile" : "target-UNISNES_RP2040-Debug-ab96234f92b6f93bd095.json",
 					"name" : "UNISNES_RP2040",
 					"projectIndex" : 0
 				},
@@ -1195,21 +1195,21 @@
 				{
 					"directoryIndex" : 81,
 					"id" : "hoja_lib_joybus_pio_h::@cba62a5e146d3cb49da7",
-					"jsonFile" : "target-hoja_lib_joybus_pio_h-Debug-9332c409f13e5760fea1.json",
+					"jsonFile" : "target-hoja_lib_joybus_pio_h-Debug-acbe86f521f21afcfd98.json",
 					"name" : "hoja_lib_joybus_pio_h",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 81,
 					"id" : "hoja_lib_nserial_pio_h::@cba62a5e146d3cb49da7",
-					"jsonFile" : "target-hoja_lib_nserial_pio_h-Debug-7d6ae65eda97cee7598a.json",
+					"jsonFile" : "target-hoja_lib_nserial_pio_h-Debug-5f0eb2f154e647acc3cd.json",
 					"name" : "hoja_lib_nserial_pio_h",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 81,
 					"id" : "hoja_lib_ws2812_pio_h::@cba62a5e146d3cb49da7",
-					"jsonFile" : "target-hoja_lib_ws2812_pio_h-Debug-2d04f18a5dfc25aa7b47.json",
+					"jsonFile" : "target-hoja_lib_ws2812_pio_h-Debug-0f4e6882e6b8e1f2b5a5.json",
 					"name" : "hoja_lib_ws2812_pio_h",
 					"projectIndex" : 0
 				},
