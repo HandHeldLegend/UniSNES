@@ -3,7 +3,7 @@
 
 // Device stuff
 #define HOJA_DEVICE_ID  0xB002
-#define HOJA_FW_VERSION 0x0A02
+#define HOJA_FW_VERSION 0x0A05
 
 // RGB Stuff
 #define HOJA_RGB_PIN 15
@@ -24,7 +24,7 @@
 
 // URL that will display to open a config tool
 #define HOJA_WEBUSB_URL     "handheldlegend.github.io/hoja_config"
-#define HOJA_MANUFACTURER   "HandHeldLegend"
+#define HOJA_MANUFACTURER   "RetroPlayground"
 #define HOJA_PRODUCT        "UniSNES"
 
 #define HOJA_CAPABILITY_ANALOG_STICK_L 0

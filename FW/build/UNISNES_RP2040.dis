@@ -13175,331 +13175,331 @@ Disassembly of section .text:
 100070ea:	7023      	strb	r3, [r4, #0]
 100070ec:	3ba5      	subs	r3, #165	; 0xa5
 100070ee:	7063      	strb	r3, [r4, #1]
-100070f0:	3b09      	subs	r3, #9
+100070f0:	3b05      	subs	r3, #5
 100070f2:	70a3      	strb	r3, [r4, #2]
-100070f4:	22b0      	movs	r2, #176	; 0xb0
-100070f6:	70e2      	strb	r2, [r4, #3]
-100070f8:	3aae      	subs	r2, #174	; 0xae
-100070fa:	7122      	strb	r2, [r4, #4]
-100070fc:	2200      	movs	r2, #0
-100070fe:	7162      	strb	r2, [r4, #5]
-10007100:	71a3      	strb	r3, [r4, #6]
-10007102:	f000 fbf7 	bl	100078f4 <btinput_get_version>
-10007106:	0a03      	lsrs	r3, r0, #8
-10007108:	71e3      	strb	r3, [r4, #7]
-1000710a:	7220      	strb	r0, [r4, #8]
-1000710c:	2000      	movs	r0, #0
-1000710e:	f7ff feeb 	bl	10006ee8 <webusb_enable_output>
-10007112:	20fa      	movs	r0, #250	; 0xfa
-10007114:	0100      	lsls	r0, r0, #4
-10007116:	f7ff feed 	bl	10006ef4 <webusb_ready_blocking>
-1000711a:	2800      	cmp	r0, #0
-1000711c:	d106      	bne.n	1000712c <webusb_command_processor+0xe0>
-1000711e:	201e      	movs	r0, #30
-10007120:	f001 fe50 	bl	10008dc4 <sleep_ms>
-10007124:	2001      	movs	r0, #1
-10007126:	f7ff fedf 	bl	10006ee8 <webusb_enable_output>
-1000712a:	e797      	b.n	1000705c <webusb_command_processor+0x10>
-1000712c:	2240      	movs	r2, #64	; 0x40
-1000712e:	49ae      	ldr	r1, [pc, #696]	; (100073e8 <webusb_command_processor+0x39c>)
-10007130:	2000      	movs	r0, #0
-10007132:	f008 fe57 	bl	1000fde4 <tud_vendor_n_write>
-10007136:	2000      	movs	r0, #0
-10007138:	f008 fe72 	bl	1000fe20 <tud_vendor_n_flush>
-1000713c:	e7ef      	b.n	1000711e <webusb_command_processor+0xd2>
-1000713e:	48ae      	ldr	r0, [pc, #696]	; (100073f8 <webusb_command_processor+0x3ac>)
-10007140:	f006 f83c 	bl	1000d1bc <__wrap_puts>
-10007144:	f7fd ffd8 	bl	100050f8 <analog_calibrate_start>
-10007148:	4ba7      	ldr	r3, [pc, #668]	; (100073e8 <webusb_command_processor+0x39c>)
-1000714a:	2203      	movs	r2, #3
-1000714c:	701a      	strb	r2, [r3, #0]
-1000714e:	20fa      	movs	r0, #250	; 0xfa
-10007150:	0100      	lsls	r0, r0, #4
-10007152:	f7ff fecf 	bl	10006ef4 <webusb_ready_blocking>
-10007156:	2800      	cmp	r0, #0
-10007158:	d100      	bne.n	1000715c <webusb_command_processor+0x110>
-1000715a:	e77f      	b.n	1000705c <webusb_command_processor+0x10>
-1000715c:	2240      	movs	r2, #64	; 0x40
-1000715e:	49a2      	ldr	r1, [pc, #648]	; (100073e8 <webusb_command_processor+0x39c>)
-10007160:	2000      	movs	r0, #0
-10007162:	f008 fe3f 	bl	1000fde4 <tud_vendor_n_write>
-10007166:	2000      	movs	r0, #0
-10007168:	f008 fe5a 	bl	1000fe20 <tud_vendor_n_flush>
-1000716c:	e776      	b.n	1000705c <webusb_command_processor+0x10>
-1000716e:	48a3      	ldr	r0, [pc, #652]	; (100073fc <webusb_command_processor+0x3b0>)
-10007170:	f006 f824 	bl	1000d1bc <__wrap_puts>
-10007174:	f7fe f804 	bl	10005180 <analog_calibrate_stop>
-10007178:	4b9b      	ldr	r3, [pc, #620]	; (100073e8 <webusb_command_processor+0x39c>)
-1000717a:	22a3      	movs	r2, #163	; 0xa3
-1000717c:	701a      	strb	r2, [r3, #0]
-1000717e:	20fa      	movs	r0, #250	; 0xfa
-10007180:	0100      	lsls	r0, r0, #4
-10007182:	f7ff feb7 	bl	10006ef4 <webusb_ready_blocking>
-10007186:	2800      	cmp	r0, #0
-10007188:	d100      	bne.n	1000718c <webusb_command_processor+0x140>
-1000718a:	e767      	b.n	1000705c <webusb_command_processor+0x10>
-1000718c:	2240      	movs	r2, #64	; 0x40
-1000718e:	4996      	ldr	r1, [pc, #600]	; (100073e8 <webusb_command_processor+0x39c>)
-10007190:	2000      	movs	r0, #0
-10007192:	f008 fe27 	bl	1000fde4 <tud_vendor_n_write>
-10007196:	2000      	movs	r0, #0
-10007198:	f008 fe42 	bl	1000fe20 <tud_vendor_n_flush>
-1000719c:	e75e      	b.n	1000705c <webusb_command_processor+0x10>
-1000719e:	4898      	ldr	r0, [pc, #608]	; (10007400 <webusb_command_processor+0x3b4>)
-100071a0:	f006 f80c 	bl	1000d1bc <__wrap_puts>
-100071a4:	7863      	ldrb	r3, [r4, #1]
-100071a6:	2b02      	cmp	r3, #2
-100071a8:	d029      	beq.n	100071fe <webusb_command_processor+0x1b2>
-100071aa:	d80e      	bhi.n	100071ca <webusb_command_processor+0x17e>
-100071ac:	2b00      	cmp	r3, #0
-100071ae:	d019      	beq.n	100071e4 <webusb_command_processor+0x198>
-100071b0:	2b01      	cmp	r3, #1
-100071b2:	d121      	bne.n	100071f8 <webusb_command_processor+0x1ac>
-100071b4:	78a3      	ldrb	r3, [r4, #2]
-100071b6:	1e5a      	subs	r2, r3, #1
-100071b8:	4193      	sbcs	r3, r2
-100071ba:	4992      	ldr	r1, [pc, #584]	; (10007404 <webusb_command_processor+0x3b8>)
-100071bc:	01da      	lsls	r2, r3, #7
-100071be:	7cc8      	ldrb	r0, [r1, #19]
-100071c0:	237f      	movs	r3, #127	; 0x7f
-100071c2:	4003      	ands	r3, r0
-100071c4:	4313      	orrs	r3, r2
-100071c6:	74cb      	strb	r3, [r1, #19]
-100071c8:	e016      	b.n	100071f8 <webusb_command_processor+0x1ac>
-100071ca:	2b03      	cmp	r3, #3
-100071cc:	d114      	bne.n	100071f8 <webusb_command_processor+0x1ac>
-100071ce:	78a3      	ldrb	r3, [r4, #2]
-100071d0:	1e5a      	subs	r2, r3, #1
-100071d2:	4193      	sbcs	r3, r2
-100071d4:	498b      	ldr	r1, [pc, #556]	; (10007404 <webusb_command_processor+0x3b8>)
-100071d6:	01da      	lsls	r2, r3, #7
-100071d8:	7ec8      	ldrb	r0, [r1, #27]
-100071da:	237f      	movs	r3, #127	; 0x7f
-100071dc:	4003      	ands	r3, r0
-100071de:	4313      	orrs	r3, r2
-100071e0:	76cb      	strb	r3, [r1, #27]
-100071e2:	e009      	b.n	100071f8 <webusb_command_processor+0x1ac>
-100071e4:	78a3      	ldrb	r3, [r4, #2]
-100071e6:	1e5a      	subs	r2, r3, #1
-100071e8:	4193      	sbcs	r3, r2
-100071ea:	4986      	ldr	r1, [pc, #536]	; (10007404 <webusb_command_processor+0x3b8>)
-100071ec:	01da      	lsls	r2, r3, #7
-100071ee:	7bc8      	ldrb	r0, [r1, #15]
-100071f0:	237f      	movs	r3, #127	; 0x7f
-100071f2:	4003      	ands	r3, r0
-100071f4:	4313      	orrs	r3, r2
-100071f6:	73cb      	strb	r3, [r1, #15]
-100071f8:	f7fd fc00 	bl	100049fc <stick_scaling_get_settings>
-100071fc:	e72e      	b.n	1000705c <webusb_command_processor+0x10>
-100071fe:	78a3      	ldrb	r3, [r4, #2]
-10007200:	1e5a      	subs	r2, r3, #1
-10007202:	4193      	sbcs	r3, r2
-10007204:	497f      	ldr	r1, [pc, #508]	; (10007404 <webusb_command_processor+0x3b8>)
-10007206:	01da      	lsls	r2, r3, #7
-10007208:	7dc8      	ldrb	r0, [r1, #23]
-1000720a:	237f      	movs	r3, #127	; 0x7f
-1000720c:	4003      	ands	r3, r0
-1000720e:	4313      	orrs	r3, r2
-10007210:	75cb      	strb	r3, [r1, #23]
-10007212:	e7f1      	b.n	100071f8 <webusb_command_processor+0x1ac>
-10007214:	487c      	ldr	r0, [pc, #496]	; (10007408 <webusb_command_processor+0x3bc>)
-10007216:	f005 ffd1 	bl	1000d1bc <__wrap_puts>
-1000721a:	4b73      	ldr	r3, [pc, #460]	; (100073e8 <webusb_command_processor+0x39c>)
-1000721c:	22a2      	movs	r2, #162	; 0xa2
-1000721e:	701a      	strb	r2, [r3, #0]
-10007220:	4a78      	ldr	r2, [pc, #480]	; (10007404 <webusb_command_processor+0x3b8>)
-10007222:	7bd1      	ldrb	r1, [r2, #15]
-10007224:	09c9      	lsrs	r1, r1, #7
-10007226:	7059      	strb	r1, [r3, #1]
-10007228:	7cd1      	ldrb	r1, [r2, #19]
-1000722a:	09c9      	lsrs	r1, r1, #7
-1000722c:	7099      	strb	r1, [r3, #2]
-1000722e:	7dd1      	ldrb	r1, [r2, #23]
-10007230:	09c9      	lsrs	r1, r1, #7
-10007232:	70d9      	strb	r1, [r3, #3]
-10007234:	7ed2      	ldrb	r2, [r2, #27]
-10007236:	09d2      	lsrs	r2, r2, #7
-10007238:	711a      	strb	r2, [r3, #4]
-1000723a:	20fa      	movs	r0, #250	; 0xfa
-1000723c:	0100      	lsls	r0, r0, #4
-1000723e:	f7ff fe59 	bl	10006ef4 <webusb_ready_blocking>
-10007242:	2800      	cmp	r0, #0
-10007244:	d100      	bne.n	10007248 <webusb_command_processor+0x1fc>
-10007246:	e709      	b.n	1000705c <webusb_command_processor+0x10>
-10007248:	2240      	movs	r2, #64	; 0x40
-1000724a:	4967      	ldr	r1, [pc, #412]	; (100073e8 <webusb_command_processor+0x39c>)
-1000724c:	2000      	movs	r0, #0
-1000724e:	f008 fdc9 	bl	1000fde4 <tud_vendor_n_write>
-10007252:	2000      	movs	r0, #0
-10007254:	f008 fde4 	bl	1000fe20 <tud_vendor_n_flush>
-10007258:	e700      	b.n	1000705c <webusb_command_processor+0x10>
-1000725a:	486c      	ldr	r0, [pc, #432]	; (1000740c <webusb_command_processor+0x3c0>)
-1000725c:	f005 ffae 	bl	1000d1bc <__wrap_puts>
-10007260:	4c61      	ldr	r4, [pc, #388]	; (100073e8 <webusb_command_processor+0x39c>)
-10007262:	23ac      	movs	r3, #172	; 0xac
-10007264:	7023      	strb	r3, [r4, #0]
-10007266:	2300      	movs	r3, #0
-10007268:	466a      	mov	r2, sp
-1000726a:	70d3      	strb	r3, [r2, #3]
-1000726c:	7113      	strb	r3, [r2, #4]
-1000726e:	a901      	add	r1, sp, #4
-10007270:	1cd0      	adds	r0, r2, #3
-10007272:	f7fe f841 	bl	100052f8 <analog_get_subangle_data>
-10007276:	466b      	mov	r3, sp
-10007278:	78da      	ldrb	r2, [r3, #3]
-1000727a:	7062      	strb	r2, [r4, #1]
-1000727c:	7919      	ldrb	r1, [r3, #4]
-1000727e:	70a1      	strb	r1, [r4, #2]
-10007280:	2a00      	cmp	r2, #0
-10007282:	d011      	beq.n	100072a8 <webusb_command_processor+0x25c>
-10007284:	2a01      	cmp	r2, #1
-10007286:	d01a      	beq.n	100072be <webusb_command_processor+0x272>
-10007288:	20fa      	movs	r0, #250	; 0xfa
-1000728a:	0100      	lsls	r0, r0, #4
-1000728c:	f7ff fe32 	bl	10006ef4 <webusb_ready_blocking>
-10007290:	2800      	cmp	r0, #0
-10007292:	d100      	bne.n	10007296 <webusb_command_processor+0x24a>
-10007294:	e6e2      	b.n	1000705c <webusb_command_processor+0x10>
-10007296:	2240      	movs	r2, #64	; 0x40
-10007298:	4953      	ldr	r1, [pc, #332]	; (100073e8 <webusb_command_processor+0x39c>)
-1000729a:	2000      	movs	r0, #0
-1000729c:	f008 fda2 	bl	1000fde4 <tud_vendor_n_write>
-100072a0:	2000      	movs	r0, #0
-100072a2:	f008 fdbd 	bl	1000fe20 <tud_vendor_n_flush>
-100072a6:	e6d9      	b.n	1000705c <webusb_command_processor+0x10>
-100072a8:	314c      	adds	r1, #76	; 0x4c
-100072aa:	0089      	lsls	r1, r1, #2
-100072ac:	4b55      	ldr	r3, [pc, #340]	; (10007404 <webusb_command_processor+0x3b8>)
-100072ae:	18c9      	adds	r1, r1, r3
-100072b0:	3104      	adds	r1, #4
-100072b2:	484d      	ldr	r0, [pc, #308]	; (100073e8 <webusb_command_processor+0x39c>)
-100072b4:	2204      	movs	r2, #4
-100072b6:	3003      	adds	r0, #3
-100072b8:	f005 fe4a 	bl	1000cf50 <__wrap___aeabi_memcpy>
-100072bc:	e7e4      	b.n	10007288 <webusb_command_processor+0x23c>
-100072be:	3154      	adds	r1, #84	; 0x54
-100072c0:	0089      	lsls	r1, r1, #2
-100072c2:	4b50      	ldr	r3, [pc, #320]	; (10007404 <webusb_command_processor+0x3b8>)
-100072c4:	18c9      	adds	r1, r1, r3
-100072c6:	3104      	adds	r1, #4
-100072c8:	4847      	ldr	r0, [pc, #284]	; (100073e8 <webusb_command_processor+0x39c>)
-100072ca:	2204      	movs	r2, #4
-100072cc:	3003      	adds	r0, #3
-100072ce:	f005 fe3f 	bl	1000cf50 <__wrap___aeabi_memcpy>
-100072d2:	e7d9      	b.n	10007288 <webusb_command_processor+0x23c>
-100072d4:	484e      	ldr	r0, [pc, #312]	; (10007410 <webusb_command_processor+0x3c4>)
-100072d6:	f005 ff71 	bl	1000d1bc <__wrap_puts>
-100072da:	7863      	ldrb	r3, [r4, #1]
-100072dc:	2b00      	cmp	r3, #0
-100072de:	d10c      	bne.n	100072fa <webusb_command_processor+0x2ae>
-100072e0:	78a0      	ldrb	r0, [r4, #2]
-100072e2:	304c      	adds	r0, #76	; 0x4c
-100072e4:	0080      	lsls	r0, r0, #2
-100072e6:	4b47      	ldr	r3, [pc, #284]	; (10007404 <webusb_command_processor+0x3b8>)
-100072e8:	18c0      	adds	r0, r0, r3
-100072ea:	3004      	adds	r0, #4
-100072ec:	1ce1      	adds	r1, r4, #3
-100072ee:	2204      	movs	r2, #4
-100072f0:	f005 fe2e 	bl	1000cf50 <__wrap___aeabi_memcpy>
-100072f4:	f7fd fbb6 	bl	10004a64 <stick_scaling_init>
-100072f8:	e6b0      	b.n	1000705c <webusb_command_processor+0x10>
-100072fa:	78a0      	ldrb	r0, [r4, #2]
-100072fc:	3054      	adds	r0, #84	; 0x54
-100072fe:	0080      	lsls	r0, r0, #2
-10007300:	4b40      	ldr	r3, [pc, #256]	; (10007404 <webusb_command_processor+0x3b8>)
-10007302:	18c0      	adds	r0, r0, r3
-10007304:	3004      	adds	r0, #4
-10007306:	1ce1      	adds	r1, r4, #3
-10007308:	2204      	movs	r2, #4
-1000730a:	f005 fe21 	bl	1000cf50 <__wrap___aeabi_memcpy>
-1000730e:	e7f1      	b.n	100072f4 <webusb_command_processor+0x2a8>
-10007310:	4840      	ldr	r0, [pc, #256]	; (10007414 <webusb_command_processor+0x3c8>)
-10007312:	f005 ff53 	bl	1000d1bc <__wrap_puts>
-10007316:	4c34      	ldr	r4, [pc, #208]	; (100073e8 <webusb_command_processor+0x39c>)
-10007318:	23ad      	movs	r3, #173	; 0xad
-1000731a:	7023      	strb	r3, [r4, #0]
-1000731c:	2300      	movs	r3, #0
-1000731e:	466a      	mov	r2, sp
-10007320:	70d3      	strb	r3, [r2, #3]
-10007322:	7113      	strb	r3, [r2, #4]
-10007324:	a901      	add	r1, sp, #4
-10007326:	1cd0      	adds	r0, r2, #3
-10007328:	f7fd ffda 	bl	100052e0 <analog_get_octoangle_data>
-1000732c:	466b      	mov	r3, sp
-1000732e:	78da      	ldrb	r2, [r3, #3]
-10007330:	7062      	strb	r2, [r4, #1]
-10007332:	791b      	ldrb	r3, [r3, #4]
-10007334:	70a3      	strb	r3, [r4, #2]
-10007336:	2a00      	cmp	r2, #0
-10007338:	d011      	beq.n	1000735e <webusb_command_processor+0x312>
-1000733a:	2a01      	cmp	r2, #1
-1000733c:	d01a      	beq.n	10007374 <webusb_command_processor+0x328>
-1000733e:	20fa      	movs	r0, #250	; 0xfa
-10007340:	0100      	lsls	r0, r0, #4
-10007342:	f7ff fdd7 	bl	10006ef4 <webusb_ready_blocking>
-10007346:	2800      	cmp	r0, #0
-10007348:	d100      	bne.n	1000734c <webusb_command_processor+0x300>
-1000734a:	e687      	b.n	1000705c <webusb_command_processor+0x10>
-1000734c:	2240      	movs	r2, #64	; 0x40
-1000734e:	4926      	ldr	r1, [pc, #152]	; (100073e8 <webusb_command_processor+0x39c>)
-10007350:	2000      	movs	r0, #0
-10007352:	f008 fd47 	bl	1000fde4 <tud_vendor_n_write>
-10007356:	2000      	movs	r0, #0
-10007358:	f008 fd62 	bl	1000fe20 <tud_vendor_n_flush>
-1000735c:	e67e      	b.n	1000705c <webusb_command_processor+0x10>
-1000735e:	3306      	adds	r3, #6
-10007360:	0099      	lsls	r1, r3, #2
-10007362:	4b28      	ldr	r3, [pc, #160]	; (10007404 <webusb_command_processor+0x3b8>)
-10007364:	18c9      	adds	r1, r1, r3
-10007366:	3104      	adds	r1, #4
-10007368:	481f      	ldr	r0, [pc, #124]	; (100073e8 <webusb_command_processor+0x39c>)
-1000736a:	2204      	movs	r2, #4
-1000736c:	3003      	adds	r0, #3
-1000736e:	f005 fdef 	bl	1000cf50 <__wrap___aeabi_memcpy>
-10007372:	e7e4      	b.n	1000733e <webusb_command_processor+0x2f2>
-10007374:	330e      	adds	r3, #14
-10007376:	0099      	lsls	r1, r3, #2
-10007378:	4b22      	ldr	r3, [pc, #136]	; (10007404 <webusb_command_processor+0x3b8>)
-1000737a:	18c9      	adds	r1, r1, r3
-1000737c:	3104      	adds	r1, #4
-1000737e:	481a      	ldr	r0, [pc, #104]	; (100073e8 <webusb_command_processor+0x39c>)
-10007380:	2204      	movs	r2, #4
-10007382:	3003      	adds	r0, #3
-10007384:	f005 fde4 	bl	1000cf50 <__wrap___aeabi_memcpy>
-10007388:	e7d9      	b.n	1000733e <webusb_command_processor+0x2f2>
-1000738a:	4823      	ldr	r0, [pc, #140]	; (10007418 <webusb_command_processor+0x3cc>)
-1000738c:	f005 ff16 	bl	1000d1bc <__wrap_puts>
-10007390:	7863      	ldrb	r3, [r4, #1]
-10007392:	2b00      	cmp	r3, #0
-10007394:	d10c      	bne.n	100073b0 <webusb_command_processor+0x364>
-10007396:	78a0      	ldrb	r0, [r4, #2]
-10007398:	3006      	adds	r0, #6
-1000739a:	0080      	lsls	r0, r0, #2
-1000739c:	4b19      	ldr	r3, [pc, #100]	; (10007404 <webusb_command_processor+0x3b8>)
-1000739e:	18c0      	adds	r0, r0, r3
-100073a0:	3004      	adds	r0, #4
-100073a2:	1ce1      	adds	r1, r4, #3
-100073a4:	2204      	movs	r2, #4
-100073a6:	f005 fdd3 	bl	1000cf50 <__wrap___aeabi_memcpy>
-100073aa:	f7fd fb5b 	bl	10004a64 <stick_scaling_init>
-100073ae:	e655      	b.n	1000705c <webusb_command_processor+0x10>
-100073b0:	78a0      	ldrb	r0, [r4, #2]
-100073b2:	300e      	adds	r0, #14
-100073b4:	0080      	lsls	r0, r0, #2
-100073b6:	4b13      	ldr	r3, [pc, #76]	; (10007404 <webusb_command_processor+0x3b8>)
-100073b8:	18c0      	adds	r0, r0, r3
-100073ba:	3004      	adds	r0, #4
-100073bc:	1ce1      	adds	r1, r4, #3
-100073be:	2204      	movs	r2, #4
-100073c0:	f005 fdc6 	bl	1000cf50 <__wrap___aeabi_memcpy>
-100073c4:	e7f1      	b.n	100073aa <webusb_command_processor+0x35e>
-100073c6:	4815      	ldr	r0, [pc, #84]	; (1000741c <webusb_command_processor+0x3d0>)
-100073c8:	f005 fef8 	bl	1000d1bc <__wrap_puts>
-100073cc:	f7fd ff28 	bl	10005220 <analog_calibrate_angle>
-100073d0:	f7fd fb34 	bl	10004a3c <stick_scaling_set_settings>
-100073d4:	f7fd fb46 	bl	10004a64 <stick_scaling_init>
-100073d8:	e640      	b.n	1000705c <webusb_command_processor+0x10>
-100073da:	46c0      	nop			; (mov r8, r8)
+100070f4:	33ab      	adds	r3, #171	; 0xab
+100070f6:	70e3      	strb	r3, [r4, #3]
+100070f8:	3bae      	subs	r3, #174	; 0xae
+100070fa:	7123      	strb	r3, [r4, #4]
+100070fc:	2300      	movs	r3, #0
+100070fe:	7163      	strb	r3, [r4, #5]
+10007100:	3301      	adds	r3, #1
+10007102:	71a3      	strb	r3, [r4, #6]
+10007104:	f000 fbf6 	bl	100078f4 <btinput_get_version>
+10007108:	0a03      	lsrs	r3, r0, #8
+1000710a:	71e3      	strb	r3, [r4, #7]
+1000710c:	7220      	strb	r0, [r4, #8]
+1000710e:	2000      	movs	r0, #0
+10007110:	f7ff feea 	bl	10006ee8 <webusb_enable_output>
+10007114:	20fa      	movs	r0, #250	; 0xfa
+10007116:	0100      	lsls	r0, r0, #4
+10007118:	f7ff feec 	bl	10006ef4 <webusb_ready_blocking>
+1000711c:	2800      	cmp	r0, #0
+1000711e:	d106      	bne.n	1000712e <webusb_command_processor+0xe2>
+10007120:	201e      	movs	r0, #30
+10007122:	f001 fe4f 	bl	10008dc4 <sleep_ms>
+10007126:	2001      	movs	r0, #1
+10007128:	f7ff fede 	bl	10006ee8 <webusb_enable_output>
+1000712c:	e796      	b.n	1000705c <webusb_command_processor+0x10>
+1000712e:	2240      	movs	r2, #64	; 0x40
+10007130:	49ad      	ldr	r1, [pc, #692]	; (100073e8 <webusb_command_processor+0x39c>)
+10007132:	2000      	movs	r0, #0
+10007134:	f008 fe56 	bl	1000fde4 <tud_vendor_n_write>
+10007138:	2000      	movs	r0, #0
+1000713a:	f008 fe71 	bl	1000fe20 <tud_vendor_n_flush>
+1000713e:	e7ef      	b.n	10007120 <webusb_command_processor+0xd4>
+10007140:	48ad      	ldr	r0, [pc, #692]	; (100073f8 <webusb_command_processor+0x3ac>)
+10007142:	f006 f83b 	bl	1000d1bc <__wrap_puts>
+10007146:	f7fd ffd7 	bl	100050f8 <analog_calibrate_start>
+1000714a:	4ba7      	ldr	r3, [pc, #668]	; (100073e8 <webusb_command_processor+0x39c>)
+1000714c:	2203      	movs	r2, #3
+1000714e:	701a      	strb	r2, [r3, #0]
+10007150:	20fa      	movs	r0, #250	; 0xfa
+10007152:	0100      	lsls	r0, r0, #4
+10007154:	f7ff fece 	bl	10006ef4 <webusb_ready_blocking>
+10007158:	2800      	cmp	r0, #0
+1000715a:	d100      	bne.n	1000715e <webusb_command_processor+0x112>
+1000715c:	e77e      	b.n	1000705c <webusb_command_processor+0x10>
+1000715e:	2240      	movs	r2, #64	; 0x40
+10007160:	49a1      	ldr	r1, [pc, #644]	; (100073e8 <webusb_command_processor+0x39c>)
+10007162:	2000      	movs	r0, #0
+10007164:	f008 fe3e 	bl	1000fde4 <tud_vendor_n_write>
+10007168:	2000      	movs	r0, #0
+1000716a:	f008 fe59 	bl	1000fe20 <tud_vendor_n_flush>
+1000716e:	e775      	b.n	1000705c <webusb_command_processor+0x10>
+10007170:	48a2      	ldr	r0, [pc, #648]	; (100073fc <webusb_command_processor+0x3b0>)
+10007172:	f006 f823 	bl	1000d1bc <__wrap_puts>
+10007176:	f7fe f803 	bl	10005180 <analog_calibrate_stop>
+1000717a:	4b9b      	ldr	r3, [pc, #620]	; (100073e8 <webusb_command_processor+0x39c>)
+1000717c:	22a3      	movs	r2, #163	; 0xa3
+1000717e:	701a      	strb	r2, [r3, #0]
+10007180:	20fa      	movs	r0, #250	; 0xfa
+10007182:	0100      	lsls	r0, r0, #4
+10007184:	f7ff feb6 	bl	10006ef4 <webusb_ready_blocking>
+10007188:	2800      	cmp	r0, #0
+1000718a:	d100      	bne.n	1000718e <webusb_command_processor+0x142>
+1000718c:	e766      	b.n	1000705c <webusb_command_processor+0x10>
+1000718e:	2240      	movs	r2, #64	; 0x40
+10007190:	4995      	ldr	r1, [pc, #596]	; (100073e8 <webusb_command_processor+0x39c>)
+10007192:	2000      	movs	r0, #0
+10007194:	f008 fe26 	bl	1000fde4 <tud_vendor_n_write>
+10007198:	2000      	movs	r0, #0
+1000719a:	f008 fe41 	bl	1000fe20 <tud_vendor_n_flush>
+1000719e:	e75d      	b.n	1000705c <webusb_command_processor+0x10>
+100071a0:	4897      	ldr	r0, [pc, #604]	; (10007400 <webusb_command_processor+0x3b4>)
+100071a2:	f006 f80b 	bl	1000d1bc <__wrap_puts>
+100071a6:	7863      	ldrb	r3, [r4, #1]
+100071a8:	2b02      	cmp	r3, #2
+100071aa:	d029      	beq.n	10007200 <webusb_command_processor+0x1b4>
+100071ac:	d80e      	bhi.n	100071cc <webusb_command_processor+0x180>
+100071ae:	2b00      	cmp	r3, #0
+100071b0:	d019      	beq.n	100071e6 <webusb_command_processor+0x19a>
+100071b2:	2b01      	cmp	r3, #1
+100071b4:	d121      	bne.n	100071fa <webusb_command_processor+0x1ae>
+100071b6:	78a3      	ldrb	r3, [r4, #2]
+100071b8:	1e5a      	subs	r2, r3, #1
+100071ba:	4193      	sbcs	r3, r2
+100071bc:	4991      	ldr	r1, [pc, #580]	; (10007404 <webusb_command_processor+0x3b8>)
+100071be:	01da      	lsls	r2, r3, #7
+100071c0:	7cc8      	ldrb	r0, [r1, #19]
+100071c2:	237f      	movs	r3, #127	; 0x7f
+100071c4:	4003      	ands	r3, r0
+100071c6:	4313      	orrs	r3, r2
+100071c8:	74cb      	strb	r3, [r1, #19]
+100071ca:	e016      	b.n	100071fa <webusb_command_processor+0x1ae>
+100071cc:	2b03      	cmp	r3, #3
+100071ce:	d114      	bne.n	100071fa <webusb_command_processor+0x1ae>
+100071d0:	78a3      	ldrb	r3, [r4, #2]
+100071d2:	1e5a      	subs	r2, r3, #1
+100071d4:	4193      	sbcs	r3, r2
+100071d6:	498b      	ldr	r1, [pc, #556]	; (10007404 <webusb_command_processor+0x3b8>)
+100071d8:	01da      	lsls	r2, r3, #7
+100071da:	7ec8      	ldrb	r0, [r1, #27]
+100071dc:	237f      	movs	r3, #127	; 0x7f
+100071de:	4003      	ands	r3, r0
+100071e0:	4313      	orrs	r3, r2
+100071e2:	76cb      	strb	r3, [r1, #27]
+100071e4:	e009      	b.n	100071fa <webusb_command_processor+0x1ae>
+100071e6:	78a3      	ldrb	r3, [r4, #2]
+100071e8:	1e5a      	subs	r2, r3, #1
+100071ea:	4193      	sbcs	r3, r2
+100071ec:	4985      	ldr	r1, [pc, #532]	; (10007404 <webusb_command_processor+0x3b8>)
+100071ee:	01da      	lsls	r2, r3, #7
+100071f0:	7bc8      	ldrb	r0, [r1, #15]
+100071f2:	237f      	movs	r3, #127	; 0x7f
+100071f4:	4003      	ands	r3, r0
+100071f6:	4313      	orrs	r3, r2
+100071f8:	73cb      	strb	r3, [r1, #15]
+100071fa:	f7fd fbff 	bl	100049fc <stick_scaling_get_settings>
+100071fe:	e72d      	b.n	1000705c <webusb_command_processor+0x10>
+10007200:	78a3      	ldrb	r3, [r4, #2]
+10007202:	1e5a      	subs	r2, r3, #1
+10007204:	4193      	sbcs	r3, r2
+10007206:	497f      	ldr	r1, [pc, #508]	; (10007404 <webusb_command_processor+0x3b8>)
+10007208:	01da      	lsls	r2, r3, #7
+1000720a:	7dc8      	ldrb	r0, [r1, #23]
+1000720c:	237f      	movs	r3, #127	; 0x7f
+1000720e:	4003      	ands	r3, r0
+10007210:	4313      	orrs	r3, r2
+10007212:	75cb      	strb	r3, [r1, #23]
+10007214:	e7f1      	b.n	100071fa <webusb_command_processor+0x1ae>
+10007216:	487c      	ldr	r0, [pc, #496]	; (10007408 <webusb_command_processor+0x3bc>)
+10007218:	f005 ffd0 	bl	1000d1bc <__wrap_puts>
+1000721c:	4b72      	ldr	r3, [pc, #456]	; (100073e8 <webusb_command_processor+0x39c>)
+1000721e:	22a2      	movs	r2, #162	; 0xa2
+10007220:	701a      	strb	r2, [r3, #0]
+10007222:	4a78      	ldr	r2, [pc, #480]	; (10007404 <webusb_command_processor+0x3b8>)
+10007224:	7bd1      	ldrb	r1, [r2, #15]
+10007226:	09c9      	lsrs	r1, r1, #7
+10007228:	7059      	strb	r1, [r3, #1]
+1000722a:	7cd1      	ldrb	r1, [r2, #19]
+1000722c:	09c9      	lsrs	r1, r1, #7
+1000722e:	7099      	strb	r1, [r3, #2]
+10007230:	7dd1      	ldrb	r1, [r2, #23]
+10007232:	09c9      	lsrs	r1, r1, #7
+10007234:	70d9      	strb	r1, [r3, #3]
+10007236:	7ed2      	ldrb	r2, [r2, #27]
+10007238:	09d2      	lsrs	r2, r2, #7
+1000723a:	711a      	strb	r2, [r3, #4]
+1000723c:	20fa      	movs	r0, #250	; 0xfa
+1000723e:	0100      	lsls	r0, r0, #4
+10007240:	f7ff fe58 	bl	10006ef4 <webusb_ready_blocking>
+10007244:	2800      	cmp	r0, #0
+10007246:	d100      	bne.n	1000724a <webusb_command_processor+0x1fe>
+10007248:	e708      	b.n	1000705c <webusb_command_processor+0x10>
+1000724a:	2240      	movs	r2, #64	; 0x40
+1000724c:	4966      	ldr	r1, [pc, #408]	; (100073e8 <webusb_command_processor+0x39c>)
+1000724e:	2000      	movs	r0, #0
+10007250:	f008 fdc8 	bl	1000fde4 <tud_vendor_n_write>
+10007254:	2000      	movs	r0, #0
+10007256:	f008 fde3 	bl	1000fe20 <tud_vendor_n_flush>
+1000725a:	e6ff      	b.n	1000705c <webusb_command_processor+0x10>
+1000725c:	486b      	ldr	r0, [pc, #428]	; (1000740c <webusb_command_processor+0x3c0>)
+1000725e:	f005 ffad 	bl	1000d1bc <__wrap_puts>
+10007262:	4c61      	ldr	r4, [pc, #388]	; (100073e8 <webusb_command_processor+0x39c>)
+10007264:	23ac      	movs	r3, #172	; 0xac
+10007266:	7023      	strb	r3, [r4, #0]
+10007268:	2300      	movs	r3, #0
+1000726a:	466a      	mov	r2, sp
+1000726c:	70d3      	strb	r3, [r2, #3]
+1000726e:	7113      	strb	r3, [r2, #4]
+10007270:	a901      	add	r1, sp, #4
+10007272:	1cd0      	adds	r0, r2, #3
+10007274:	f7fe f840 	bl	100052f8 <analog_get_subangle_data>
+10007278:	466b      	mov	r3, sp
+1000727a:	78da      	ldrb	r2, [r3, #3]
+1000727c:	7062      	strb	r2, [r4, #1]
+1000727e:	7919      	ldrb	r1, [r3, #4]
+10007280:	70a1      	strb	r1, [r4, #2]
+10007282:	2a00      	cmp	r2, #0
+10007284:	d011      	beq.n	100072aa <webusb_command_processor+0x25e>
+10007286:	2a01      	cmp	r2, #1
+10007288:	d01a      	beq.n	100072c0 <webusb_command_processor+0x274>
+1000728a:	20fa      	movs	r0, #250	; 0xfa
+1000728c:	0100      	lsls	r0, r0, #4
+1000728e:	f7ff fe31 	bl	10006ef4 <webusb_ready_blocking>
+10007292:	2800      	cmp	r0, #0
+10007294:	d100      	bne.n	10007298 <webusb_command_processor+0x24c>
+10007296:	e6e1      	b.n	1000705c <webusb_command_processor+0x10>
+10007298:	2240      	movs	r2, #64	; 0x40
+1000729a:	4953      	ldr	r1, [pc, #332]	; (100073e8 <webusb_command_processor+0x39c>)
+1000729c:	2000      	movs	r0, #0
+1000729e:	f008 fda1 	bl	1000fde4 <tud_vendor_n_write>
+100072a2:	2000      	movs	r0, #0
+100072a4:	f008 fdbc 	bl	1000fe20 <tud_vendor_n_flush>
+100072a8:	e6d8      	b.n	1000705c <webusb_command_processor+0x10>
+100072aa:	314c      	adds	r1, #76	; 0x4c
+100072ac:	0089      	lsls	r1, r1, #2
+100072ae:	4b55      	ldr	r3, [pc, #340]	; (10007404 <webusb_command_processor+0x3b8>)
+100072b0:	18c9      	adds	r1, r1, r3
+100072b2:	3104      	adds	r1, #4
+100072b4:	484c      	ldr	r0, [pc, #304]	; (100073e8 <webusb_command_processor+0x39c>)
+100072b6:	2204      	movs	r2, #4
+100072b8:	3003      	adds	r0, #3
+100072ba:	f005 fe49 	bl	1000cf50 <__wrap___aeabi_memcpy>
+100072be:	e7e4      	b.n	1000728a <webusb_command_processor+0x23e>
+100072c0:	3154      	adds	r1, #84	; 0x54
+100072c2:	0089      	lsls	r1, r1, #2
+100072c4:	4b4f      	ldr	r3, [pc, #316]	; (10007404 <webusb_command_processor+0x3b8>)
+100072c6:	18c9      	adds	r1, r1, r3
+100072c8:	3104      	adds	r1, #4
+100072ca:	4847      	ldr	r0, [pc, #284]	; (100073e8 <webusb_command_processor+0x39c>)
+100072cc:	2204      	movs	r2, #4
+100072ce:	3003      	adds	r0, #3
+100072d0:	f005 fe3e 	bl	1000cf50 <__wrap___aeabi_memcpy>
+100072d4:	e7d9      	b.n	1000728a <webusb_command_processor+0x23e>
+100072d6:	484e      	ldr	r0, [pc, #312]	; (10007410 <webusb_command_processor+0x3c4>)
+100072d8:	f005 ff70 	bl	1000d1bc <__wrap_puts>
+100072dc:	7863      	ldrb	r3, [r4, #1]
+100072de:	2b00      	cmp	r3, #0
+100072e0:	d10c      	bne.n	100072fc <webusb_command_processor+0x2b0>
+100072e2:	78a0      	ldrb	r0, [r4, #2]
+100072e4:	304c      	adds	r0, #76	; 0x4c
+100072e6:	0080      	lsls	r0, r0, #2
+100072e8:	4b46      	ldr	r3, [pc, #280]	; (10007404 <webusb_command_processor+0x3b8>)
+100072ea:	18c0      	adds	r0, r0, r3
+100072ec:	3004      	adds	r0, #4
+100072ee:	1ce1      	adds	r1, r4, #3
+100072f0:	2204      	movs	r2, #4
+100072f2:	f005 fe2d 	bl	1000cf50 <__wrap___aeabi_memcpy>
+100072f6:	f7fd fbb5 	bl	10004a64 <stick_scaling_init>
+100072fa:	e6af      	b.n	1000705c <webusb_command_processor+0x10>
+100072fc:	78a0      	ldrb	r0, [r4, #2]
+100072fe:	3054      	adds	r0, #84	; 0x54
+10007300:	0080      	lsls	r0, r0, #2
+10007302:	4b40      	ldr	r3, [pc, #256]	; (10007404 <webusb_command_processor+0x3b8>)
+10007304:	18c0      	adds	r0, r0, r3
+10007306:	3004      	adds	r0, #4
+10007308:	1ce1      	adds	r1, r4, #3
+1000730a:	2204      	movs	r2, #4
+1000730c:	f005 fe20 	bl	1000cf50 <__wrap___aeabi_memcpy>
+10007310:	e7f1      	b.n	100072f6 <webusb_command_processor+0x2aa>
+10007312:	4840      	ldr	r0, [pc, #256]	; (10007414 <webusb_command_processor+0x3c8>)
+10007314:	f005 ff52 	bl	1000d1bc <__wrap_puts>
+10007318:	4c33      	ldr	r4, [pc, #204]	; (100073e8 <webusb_command_processor+0x39c>)
+1000731a:	23ad      	movs	r3, #173	; 0xad
+1000731c:	7023      	strb	r3, [r4, #0]
+1000731e:	2300      	movs	r3, #0
+10007320:	466a      	mov	r2, sp
+10007322:	70d3      	strb	r3, [r2, #3]
+10007324:	7113      	strb	r3, [r2, #4]
+10007326:	a901      	add	r1, sp, #4
+10007328:	1cd0      	adds	r0, r2, #3
+1000732a:	f7fd ffd9 	bl	100052e0 <analog_get_octoangle_data>
+1000732e:	466b      	mov	r3, sp
+10007330:	78da      	ldrb	r2, [r3, #3]
+10007332:	7062      	strb	r2, [r4, #1]
+10007334:	791b      	ldrb	r3, [r3, #4]
+10007336:	70a3      	strb	r3, [r4, #2]
+10007338:	2a00      	cmp	r2, #0
+1000733a:	d011      	beq.n	10007360 <webusb_command_processor+0x314>
+1000733c:	2a01      	cmp	r2, #1
+1000733e:	d01a      	beq.n	10007376 <webusb_command_processor+0x32a>
+10007340:	20fa      	movs	r0, #250	; 0xfa
+10007342:	0100      	lsls	r0, r0, #4
+10007344:	f7ff fdd6 	bl	10006ef4 <webusb_ready_blocking>
+10007348:	2800      	cmp	r0, #0
+1000734a:	d100      	bne.n	1000734e <webusb_command_processor+0x302>
+1000734c:	e686      	b.n	1000705c <webusb_command_processor+0x10>
+1000734e:	2240      	movs	r2, #64	; 0x40
+10007350:	4925      	ldr	r1, [pc, #148]	; (100073e8 <webusb_command_processor+0x39c>)
+10007352:	2000      	movs	r0, #0
+10007354:	f008 fd46 	bl	1000fde4 <tud_vendor_n_write>
+10007358:	2000      	movs	r0, #0
+1000735a:	f008 fd61 	bl	1000fe20 <tud_vendor_n_flush>
+1000735e:	e67d      	b.n	1000705c <webusb_command_processor+0x10>
+10007360:	3306      	adds	r3, #6
+10007362:	0099      	lsls	r1, r3, #2
+10007364:	4b27      	ldr	r3, [pc, #156]	; (10007404 <webusb_command_processor+0x3b8>)
+10007366:	18c9      	adds	r1, r1, r3
+10007368:	3104      	adds	r1, #4
+1000736a:	481f      	ldr	r0, [pc, #124]	; (100073e8 <webusb_command_processor+0x39c>)
+1000736c:	2204      	movs	r2, #4
+1000736e:	3003      	adds	r0, #3
+10007370:	f005 fdee 	bl	1000cf50 <__wrap___aeabi_memcpy>
+10007374:	e7e4      	b.n	10007340 <webusb_command_processor+0x2f4>
+10007376:	330e      	adds	r3, #14
+10007378:	0099      	lsls	r1, r3, #2
+1000737a:	4b22      	ldr	r3, [pc, #136]	; (10007404 <webusb_command_processor+0x3b8>)
+1000737c:	18c9      	adds	r1, r1, r3
+1000737e:	3104      	adds	r1, #4
+10007380:	4819      	ldr	r0, [pc, #100]	; (100073e8 <webusb_command_processor+0x39c>)
+10007382:	2204      	movs	r2, #4
+10007384:	3003      	adds	r0, #3
+10007386:	f005 fde3 	bl	1000cf50 <__wrap___aeabi_memcpy>
+1000738a:	e7d9      	b.n	10007340 <webusb_command_processor+0x2f4>
+1000738c:	4822      	ldr	r0, [pc, #136]	; (10007418 <webusb_command_processor+0x3cc>)
+1000738e:	f005 ff15 	bl	1000d1bc <__wrap_puts>
+10007392:	7863      	ldrb	r3, [r4, #1]
+10007394:	2b00      	cmp	r3, #0
+10007396:	d10c      	bne.n	100073b2 <webusb_command_processor+0x366>
+10007398:	78a0      	ldrb	r0, [r4, #2]
+1000739a:	3006      	adds	r0, #6
+1000739c:	0080      	lsls	r0, r0, #2
+1000739e:	4b19      	ldr	r3, [pc, #100]	; (10007404 <webusb_command_processor+0x3b8>)
+100073a0:	18c0      	adds	r0, r0, r3
+100073a2:	3004      	adds	r0, #4
+100073a4:	1ce1      	adds	r1, r4, #3
+100073a6:	2204      	movs	r2, #4
+100073a8:	f005 fdd2 	bl	1000cf50 <__wrap___aeabi_memcpy>
+100073ac:	f7fd fb5a 	bl	10004a64 <stick_scaling_init>
+100073b0:	e654      	b.n	1000705c <webusb_command_processor+0x10>
+100073b2:	78a0      	ldrb	r0, [r4, #2]
+100073b4:	300e      	adds	r0, #14
+100073b6:	0080      	lsls	r0, r0, #2
+100073b8:	4b12      	ldr	r3, [pc, #72]	; (10007404 <webusb_command_processor+0x3b8>)
+100073ba:	18c0      	adds	r0, r0, r3
+100073bc:	3004      	adds	r0, #4
+100073be:	1ce1      	adds	r1, r4, #3
+100073c0:	2204      	movs	r2, #4
+100073c2:	f005 fdc5 	bl	1000cf50 <__wrap___aeabi_memcpy>
+100073c6:	e7f1      	b.n	100073ac <webusb_command_processor+0x360>
+100073c8:	4814      	ldr	r0, [pc, #80]	; (1000741c <webusb_command_processor+0x3d0>)
+100073ca:	f005 fef7 	bl	1000d1bc <__wrap_puts>
+100073ce:	f7fd ff27 	bl	10005220 <analog_calibrate_angle>
+100073d2:	f7fd fb33 	bl	10004a3c <stick_scaling_set_settings>
+100073d6:	f7fd fb45 	bl	10004a64 <stick_scaling_init>
+100073da:	e63f      	b.n	1000705c <webusb_command_processor+0x10>
 100073dc:	10011abc 	.word	0x10011abc
 100073e0:	10011b00 	.word	0x10011b00
 100073e4:	100116e8 	.word	0x100116e8
