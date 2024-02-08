@@ -3,8 +3,7 @@
 
 // Device stuff
 #define HOJA_DEVICE_ID  0xB002
-#define HOJA_FW_VERSION 0x0A01
-#define HOJA_SETTINGS_VERSION 0xA000
+#define HOJA_FW_VERSION 0x0A02
 
 // RGB Stuff
 #define HOJA_RGB_PIN 15
