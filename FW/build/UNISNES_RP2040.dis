@@ -12823,9 +12823,9 @@ Disassembly of section .text:
 10006de2:	7023      	strb	r3, [r4, #0]
 10006de4:	3ba5      	subs	r3, #165	; 0xa5
 10006de6:	7063      	strb	r3, [r4, #1]
-10006de8:	3b03      	subs	r3, #3
+10006de8:	3b02      	subs	r3, #2
 10006dea:	70a3      	strb	r3, [r4, #2]
-10006dec:	33a9      	adds	r3, #169	; 0xa9
+10006dec:	33a8      	adds	r3, #168	; 0xa8
 10006dee:	70e3      	strb	r3, [r4, #3]
 10006df0:	3bae      	subs	r3, #174	; 0xae
 10006df2:	7123      	strb	r3, [r4, #4]
