@@ -87,9 +87,7 @@ uint16_t cb_hoja_hardware_test()
     _t.imu = false;
     _t.rumble = true;
 
-    cb_hoja_rumble_set(100, 1.0f);
-    sleep_ms(500);
-    cb_hoja_rumble_set(100, 0);
+    cb_hoja_rumble_test();
 
     return _t.val;
 }
